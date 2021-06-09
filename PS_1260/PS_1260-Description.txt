@@ -1,0 +1,4 @@
+# Bug Fixes
+
+- Larger PDFs not being created properly (especially using Raster processing)
+- IFC: "Export only elements visible in the view" option not being saved when using 
