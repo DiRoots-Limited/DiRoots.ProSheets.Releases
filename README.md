@@ -2,7 +2,18 @@
 
 ### Company
 
-[DiRoots Limited](https://diroots.com/) / 5 Shiers Avenue Dartford DA1 5FQ United Kingdom
+[DiRoots Limited](https://diroots.com/)
+
+🇬🇧 UK Office:
+
+Thomas House,
+84 Eccleston Square,
+SW1V 1PX, London
+
+🇵🇹 Portugal Office:
+
+R. da Marcha Gualtariana, 628
+4810-264, Guimarães
 
 ### What is this repository for?
 
