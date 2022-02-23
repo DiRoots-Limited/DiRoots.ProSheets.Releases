@@ -1,28 +1,34 @@
-# DiRoots.ProSheets.Releases
+ProSheets is a free plugin for Autodesk Revit Add-in to batch export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and Images (JPEG, PNG, TIFF, etc).
 
-### Company
+### Main features
+- Export to Revit to PDF, DWG, DGN, DWF, NWC, IFC, and Images.
+- Export using a custom filename built with Revit parameters or custom parameters (e.g., sheetName-SheetNumber.pdf).
+- Save custom filename and export settings to profiles.
+- Auto-detection of paper size.
+- Auto-detection of orientation (portrait and landscape).
 
-[DiRoots Limited](https://diroots.com/)
+### Other features
+- Generate reports for each export (XLSX and CSV).
+- Use environment variables (e.g., to create a subfolder folder with the current date).
+- Create subfolders by file format.
+- Combine different paper sizes and orientation into one PDF document
+- Order the drawings when combining them into a single PDF document.
+
+### Supported Revit Versions
+2018, 2019, 2020, 2021, and 2022.
+
+### Useful links
+[Tutorials](https://diroots.com/tutorials/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets)
+[Provide Feedback](https://diroots.com/contact-us/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets)
+[Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets)
+
+[DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets) 
 
 🇬🇧 UK Office:
-
 Thomas House,
 84 Eccleston Square,
 SW1V 1PX, London
 
 🇵🇹 Portugal Office:
-
 R. da Marcha Gualtariana, 628
 4810-264, Guimarães
-
-### What is this repository for?
-
-- To store installers for update handler service for [ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/)
-- Facilitates changelog messages pushed to update handler service to client plugin
-
-### Who and how do we talk to?
-
-- DiRoots Limited software development team.
-- If you are facing issues regarding plugin update to new version workflow please contact our support team at support@diroots.com
-
-Copyright 2021 DiRoots Limited. All Rights Reserved.
