@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Configuration
+title: Get Started
 nav_order: 2
 ---
 
-# Configuration
+# Installation
 {: .no_toc }
 
 Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
@@ -21,6 +21,13 @@ Just the Docs has some specific configuration parameters that can be defined in 
 View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
 
 ## Site logo
+
+```yaml
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/images/just-the-docs.png"
+```
+
+## Site logo2
 
 ```yaml
 # Set a path/url to a logo that will be displayed instead of the title

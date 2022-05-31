@@ -20,4 +20,4 @@ ProSheets is a free Autodesk Revit Add-in to export Views and Sheets to PDF, DWG
 - Save the export settings to Profiles
 - Import Profiles from a any location (e.g., shared folder, network location, etc.)
 
-[Link button](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/){: .btn .btn-di-orange }
+[Download](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/){: .btn .btn-di-orange }
