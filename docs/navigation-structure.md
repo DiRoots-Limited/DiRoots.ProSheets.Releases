@@ -224,7 +224,7 @@ This would create the following navigation structure:
 
 ## Auxiliary Links
 
-To add auxiliary links to your site (in the upper right on all pages), add it to the `aux_links` [configuration option]({{ site.baseurl }}{% link docs/configuration.md %}#aux-links) in your site's `_config.yml` file.
+
 
 #### Example
 
