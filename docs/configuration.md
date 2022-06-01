@@ -52,11 +52,12 @@ This method is ideal for individuals with admin permissions who want to install 
 
 2. Select the Revit versions and click 'Install'.
 
-![ProSheets Installation First Step](../../assets/images/GIFs/PS-Install-Step-1.gif)
+![ProSheets Installation First Step](../assets/images/GIFs/PS-Install-Step-1.gif)
 
 3 . Wait for the installation to complete and click 'Finish'.
 
-![ProSheets Installation Finish](../../assets/images/PS-Installer-Finished.png)
+![ProSheets Installation Finish](../assets/images/PS-Installer-Finished.png)
+![](../../assets/images/large-image.jpg)
 
 4. Restart your computer. Don't Skip this step.
 
@@ -88,7 +89,7 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 
 2. Select and click 'Remove'.
 
-![ProSheets Uninstall](../../assets/images/GIFs/PS-Uninstall.gif)
+![ProSheets Uninstall](../assets/images/GIFs/PS-Uninstall.gif)
 
 3 . Wait for the uninstallation to complete and click 'Finish'.
 
@@ -121,7 +122,7 @@ The updater will:
 - notify you whenever a new version is released (the action is triggered on Revit close event).
 - ask you to install now or to remind you tomorrow.
 
-![ProSheets Updater UI](../../assets/images/updater-default.gif)
+![ProSheets Updater UI](../assets/images/updater-default.gif)
 
 ### Updater Settings
 
