@@ -21,19 +21,63 @@ Not permitted:
 
 ---
 
-[Download Link](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
-
 ## Download
 
-```yaml
-1 - Download the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
-```
+Download the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
+
 
 ## Installation
-### Standard Installation
+
+### Compatibility
+- Windows 7, 8, 10 and 11.
+- Revit 2017, 2018, 2019, 2020, 2021, 2022 and 2023.
+
+### Prerequisites
+- Admin permissions.
+- PDF24 (the compatible version will be automatically installed. Dont't do it manually).
+
 ```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+# Remarks
+- the installation is done per-machine
+- %ProgramData%\Autodesk\Revit\Addins\
+```
+
+### Standard Installation
+
+```yaml
+This method is ideal for individuals with admin permissions who want to install ProSheets in one computer.
+```
+
+1 - Run ProSheets installer.
+
+2 - Select the Revit versions and click 'Install'.
+
+![ProSheets Installation First Step](/assets/images/GIFs/PS-Install-Step-1.gif)
+
+3 - Wait for the installation to complete and click 'Finish'.
+
+![ProSheets Installation Finish](/assets/images/PS-Installer-Finished.png)
+
+4 - Restart your computer. Don't Skip this step.
+
+### Silent Installation
+
+```yaml
+This method is ideal for IT administrators who want to deploy ProSheets to multiple computers.
+```
+
+- Install for all compatible Revit versions.
+
+```yaml
+# This method will silently install ProSheets for all compatible Revit versions.
+<installer-name>.exe /i // /qn accept_eula=1
+```
+
+- Exclude specific Revit versions.
+
+```yaml
+# In this example ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
+<installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
 ```
 
 ## Search
