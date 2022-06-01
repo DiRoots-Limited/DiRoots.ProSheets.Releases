@@ -4,10 +4,13 @@ title: Get Started
 nav_order: 2
 ---
 
-# Installation
+# Getting Started
 {: .no_toc }
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's \_config.yml file.
+ProSheets is 100% free for personal and commercial usage, regardless of the number of users. 
+Not permitted:
+-	Sell/resell
+-	make modifications to the software.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -18,17 +21,16 @@ Just the Docs has some specific configuration parameters that can be defined in 
 
 ---
 
-View this site's [\_config.yml](https://github.com/just-the-docs/just-the-docs/tree/main/_config.yml) file as an example.
+[Download Link](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
-## Site logo
+## Download
 
 ```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
+1 - Download the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 ```
 
-## Site logo2
-
+## Installation
+### Standard Installation
 ```yaml
 # Set a path/url to a logo that will be displayed instead of the title
 logo: "/assets/images/just-the-docs.png"
