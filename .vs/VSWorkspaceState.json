@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\docs",
+    "\\docs\\ui-components"
   ],
-  "SelectedNode": "\\index.md",
   "PreviewInSolutionExplorer": false
 }
