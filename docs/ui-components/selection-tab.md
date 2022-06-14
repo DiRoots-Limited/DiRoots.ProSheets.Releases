@@ -31,7 +31,7 @@ The 'Views' radio button will show the existing views in the project.
 
 2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
 
-![ProSheets Selecting Revit Sheets and Views](../../assets/images/GIFs/Selection/selecting-sheets.gif)
+![ProSheets Selecting Revit Sheets and Views](../../assets/images/GIFs/Selection/selecting-sheets.gif)  
 Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---
@@ -53,7 +53,7 @@ The default is Orientation.
 ```
   
 
-![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/sorting-sheets.gif)
+![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/sorting-sheets.gif)  
 Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 
@@ -64,7 +64,7 @@ Filtering options available:
 2. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.)
 3. Dropdown with checkboxes to filter by view/sheet sets.
 
-![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/filtering-sheets.gif)
+![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/filtering-sheets.gif)  
 Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ### Search
@@ -90,7 +90,7 @@ For example, you can find Views by:
 - Discipline
 - Custom filename
 
-![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/searching.gif)
+![ProSheets Searching for Revit Sheets and Views](../../assets/images/GIFs/Selection/searching.gif)  
 Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---
@@ -106,7 +106,7 @@ Main features:
 - Custom static fields  (e.g., SheetName-ShetNumber-MyStaticField)
 - Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
 
-![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/custom-filename.gif)
+![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets/images/GIFs/Selection/custom-filename.gif)  
 Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---

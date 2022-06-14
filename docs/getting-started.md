@@ -121,7 +121,7 @@ The updater will:
 - notify you whenever a new version is released (the action is triggered on Revit close event).
 - ask you to install now or to remind you tomorrow.
 
-![ProSheets Updater UI](../assets/images/updater-default.gif)
+![ProSheets Updater UI](../assets/images/updater-default.png)
 
 ### Updater Settings
 
