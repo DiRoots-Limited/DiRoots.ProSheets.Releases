@@ -34,6 +34,8 @@ $font-size-10-sm: 48px !default;
 
 $white: #fff !default;
 
+$di-orange-000: #e6ae46 !default;
+
 $grey-dk-000: #959396 !default;
 $grey-dk-100: #5c5962 !default;
 $grey-dk-200: #44434d !default;
@@ -45,7 +47,12 @@ $grey-lt-100: #eeebee !default;
 $grey-lt-200: #ecebed !default;
 $grey-lt-300: #e6e1e8 !default;
 
+/*
 $purple-000: #7253ed !default;
+
+Refactor variables to reflect the actual colors.  
+*/
+$purple-000: #e6ae46 !default;
 $purple-100: #5e41d0 !default;
 $purple-200: #4e26af !default;
 $purple-300: #381885 !default;

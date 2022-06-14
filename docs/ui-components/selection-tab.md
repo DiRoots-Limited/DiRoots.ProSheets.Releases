@@ -32,7 +32,7 @@ The 'Views' radio button will show the existing views in the project.
 2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
 
 ![ProSheets Selecting Revit Sheets and Views](../../assets/images/GIFs/Selection/selecting-sheets.gif)
-
+Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---
 
@@ -54,6 +54,8 @@ The default is Orientation.
   
 
 ![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/sorting-sheets.gif)
+Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
+
 
 ### Filter
 
@@ -62,16 +64,49 @@ Filtering options available:
 2. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.)
 3. Dropdown with checkboxes to filter by view/sheet sets.
 
-
+![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/filtering-sheets.gif)
+Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ### Search
 
-### Select View/Sheet Sets
+The search box will search for text contained in any of the existing columns (including the customizable column).  
+  
+---
+
+For example, you can find Sheets by:
+- Sheet Number
+- Sheet Name
+- Revision
+- Size (e.g., A1, A0, etc.)
+- Any instance parameter available in the customizable column
+- Custom filename
+
+---
+
+For example, you can find Views by:
+- View Name
+- Scale
+- Detail Level
+- Discipline
+- Custom filename
+
+![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/searching.gif)
+Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---
 
 ## Naming Rules
 
-Content
+The custom filename builder allows you to quickly set how you want your files to be named.
+
+Main features:
+- Parametric filenaming (using Sheet/View and Project Information parameters)
+- Set generic field separator (e.g., SheetName-ShetNumber)
+- Set custom fields Separators (e.g., SheetName-ShetNumber_Rev1)
+- Custom static fields  (e.g., SheetName-ShetNumber-MyStaticField)
+- Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
+
+![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/custom-filename.gif)
+Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).
 
 ---

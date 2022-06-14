@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\assets",
+    "\\assets\\images",
+    "\\assets\\images\\GIFs",
     "\\docs",
     "\\docs\\ui-components"
   ],
