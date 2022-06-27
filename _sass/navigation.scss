@@ -13,6 +13,7 @@
     @include fs-4;
     position: relative;
     margin: 0;
+    color: #5c5c5c;
 
     @include mq(md) {
       @include fs-3;
