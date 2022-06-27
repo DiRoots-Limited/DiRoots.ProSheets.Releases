@@ -28,12 +28,12 @@
   &:focus {
     text-decoration: none;
     outline: none;
-    box-shadow: 0 0 0 3px rgba(blue, 0.25);
+    box-shadow: 0 0 0 3px rgba(230, 174, 70, 0.25);
   }
 
   &:focus:hover,
   &.selected:focus {
-    box-shadow: 0 0 0 3px rgba(blue, 0.25);
+    box-shadow: 0 0 0 3px rgba(230, 174, 70, 0.25);
   }
 
   &:hover,
@@ -46,7 +46,7 @@
   &.zeroclipboard-is-hover,
   &.zeroclipboard-is-active {
     text-decoration: none;
-    background-color: darken($base-button-color, 1%);
+    background-color: rgba(230, 174, 70, 0.8);
   }
 
   &:active,
