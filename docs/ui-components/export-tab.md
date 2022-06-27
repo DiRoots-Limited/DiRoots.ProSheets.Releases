@@ -5,7 +5,7 @@ parent: User Guide
 nav_order: 3
 ---
 
-# Formats Tab
+# Export Tab
 {: .no_toc }
 
 ## Table of contents
