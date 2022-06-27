@@ -11,7 +11,6 @@ ProSheets is 100% free for personal and commercial usage, regardless of the numb
 Not permitted:
 -	Sell/resell
 -	make modifications to the software.
-{: .fs-6 .fw-300 }
 
 ## Table of contents
 {: .no_toc .text-delta }
