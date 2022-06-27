@@ -149,5 +149,3 @@ To go around it, there's a configuration file that can be tweaked.
 
 # Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
 ```
-
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
