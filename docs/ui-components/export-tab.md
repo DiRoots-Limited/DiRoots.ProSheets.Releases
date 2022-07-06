@@ -47,11 +47,16 @@ ProSheets allows you to use environment variables to set up the export path.
 #### Supported environment variables:
 - %UserName% - writes in the path the current windows username
 - %Y - writes in the path the current year (e.g., 2022)
-- %m - writes in the path the current month (e.g., 06)
-- %d - writes in the path the current day (e.g., 27)
-- %H - writes in the path the current hour (e.g., 12)
-- %M - writes in the path the current minute (e.g., 05)
-- %S - writes in the path the current seconds (e.g., 45)
+- %m - writes in the path the current month without padding zero (e.g., 6)
+- %mm - writes in the path the current month with padding zero (e.g., 06)
+- %d - writes in the path the current day without padding zero (e.g., 5)
+- %dd - writes in the path the current day with padding zero (e.g., 05)
+- %H - writes in the path the current hour without padding zero (e.g., 8)
+- %HH - writes in the path the current hour with padding zero (e.g., 08)
+- %M - writes in the path the current minute without padding zero (e.g., 1)
+- %MM - writes in the path the current minute with padding zero (e.g., 01)
+- %S - writes in the path the current seconds without padding zero (e.g., 4)
+- %SS - writes in the path the current seconds with padding zero (e.g., 04)
 
 Pratical Example.  
 
