@@ -1,19 +1,19 @@
 ---
 layout: default
-title: English | Video Tutorials
+title: Portuguese | Video Tutorials
 parent: Video Tutorials
 nav_order: 1
 ---
 
-# ProSheets tutorials and demo videos in English.
+# ProSheets tutorials and demo videos in Portuguese.
 If you have created content about ProSheets and you want to see it featured here, drop us an email at info@diroots.com
 {: .no_toc }
 
- <div class="di-iframe-container">
+<div class="di-iframe-container">
   <iframe
-  title="Revit to PDF with custom filename | ProSheets Revit Plugin"
+  title="Imprima sem Dor de cabeça no Revit | ProSheets - Diroots"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/WBp7NR5tw_g?feature=oembed">
+  src="https://www.youtube.com/embed/j9QJXj5jg0c?feature=oembed">
   </iframe>
 </div> 
 
@@ -21,9 +21,9 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="ProSheets - How to use the &#039;Custom Drawing Number Builder&#039;"
+  title="#05- Exportação de PDFs em lote no Revit com plugin ProSheets - DiRoots"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/M1fl6JFCM84?feature=oembed">
+  src="https://www.youtube.com/embed/Fmd2uAfq_t4?feature=oembed">
   </iframe>
 </div> 
 
@@ -31,9 +31,9 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="FREE Revit batch printer/exporter: ProSheets by DiRoots!"
+  title="Criando PDF de forma automática no Revit"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/FkLAB8nbRh0?feature=oembed">
+  src="https://www.youtube.com/embed/GjyMUF7IIiM?feature=oembed">
   </iframe>
 </div> 
 
@@ -41,9 +41,9 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="DiRoots | ProSheets | FREE Plugins for Revit"
+  title="C04-Diroots-Prosheets"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/ZG_Wwe6ybds?feature=oembed">
+  src="https://www.youtube.com/embed/ScEFDmdYgS4?feature=oembed">
   </iframe>
 </div> 
 
@@ -51,8 +51,8 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="ProSheets - DiRoots"
+  title="Revit Add-in: ProSheets"
   class="di-responsive-iframe" 
-  src="https://www.youtube.com/embed/r1NxxsnkFYM?feature=oembed">
+  src="https://www.youtube.com/embed/m9b1SKgpJ9c?feature=oembed">
   </iframe>
 </div> 

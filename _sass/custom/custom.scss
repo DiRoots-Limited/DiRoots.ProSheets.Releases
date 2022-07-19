@@ -1,9 +1,13 @@
+/* General */
+.empty-space-small {
+  height: 2em;
+}
+
 .di-orange{
   color: #e6ae46;
 }
 
-
-
+/* Buttons Styles */ 
 .btn-di-orange {
   background-color: #e6ae46;
   color: #5c5c5c;
@@ -14,7 +18,7 @@
   color: #ffffff;
 }
 
-
+/* Iframe Responsive */ 
 .di-iframe-container {
   position: relative;
   overflow: hidden;
