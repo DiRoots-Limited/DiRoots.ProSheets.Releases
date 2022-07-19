@@ -2,7 +2,7 @@
 layout: default
 title: Portuguese | Video Tutorials
 parent: Video Tutorials
-nav_order: 2
+nav_order: 5
 ---
 
 # ProSheets tutorials and demo videos in Portuguese.

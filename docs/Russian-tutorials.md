@@ -2,7 +2,7 @@
 layout: default
 title: Russian | Video Tutorials
 parent: Video Tutorials
-nav_order: 2
+nav_order: 6
 ---
 
 # ProSheets tutorials and demo videos in Russian.
