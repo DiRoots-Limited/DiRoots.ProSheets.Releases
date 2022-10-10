@@ -143,7 +143,7 @@ By default the automatic updates can't be disabled.
 To go around it, there's a configuration file that can be tweaked.
 
 # Steps required
-- go to %localappdata%\DiRoots.ProSheets\Settings
+- go to %programdata%\DiRoots.ProSheets\Settings
 - open the 'updater.ini' file
 - Search for the line 'CheckFrequency=2' and change the value to 365, for example.
 
