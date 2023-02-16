@@ -63,8 +63,14 @@ Filtering options available:
 1. Radio button to switch between sheets and views
 2. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.)
 3. Dropdown with checkboxes to filter by view/sheet sets.
+4. Context menu to add/remove columns
 
 ![ProSheets Sorting Revit Sheets and Views](../../assets/images/GIFs/Selection/filtering-sheets.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+You can use the context menu to add/remove columns to/from the table view.
+
+![ProSheets Modify Columns Revit Sheets and Views](../../assets/images/GIFs/Selection/selection-modify-columns.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Search
