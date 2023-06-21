@@ -5,7 +5,7 @@ parent: Video Tutorials
 nav_order: 1
 ---
 
-# ProSheets tutorials and demo videos in English.
+# ProSheets tutorials and demo videos in Ukrainian.
 If you have created content about ProSheets and you want to see it featured here, drop us an email at info@diroots.com 
 {: .no_toc }
 

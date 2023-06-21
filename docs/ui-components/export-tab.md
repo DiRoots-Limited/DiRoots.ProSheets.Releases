@@ -45,18 +45,20 @@ By selecting the option 'Save and split files by file format', ProSheets will cr
 ProSheets allows you to use environment variables to set up the export path.
 
 #### Supported environment variables:
-- %UserName% - writes in the path the current windows username
-- %Y - writes in the path the current year (e.g., 2022)
-- %m - writes in the path the current month without padding zero (e.g., 6)
-- %mm - writes in the path the current month with padding zero (e.g., 06)
-- %d - writes in the path the current day without padding zero (e.g., 5)
-- %dd - writes in the path the current day with padding zero (e.g., 05)
-- %H - writes in the path the current hour without padding zero (e.g., 8)
-- %HH - writes in the path the current hour with padding zero (e.g., 08)
-- %M - writes in the path the current minute without padding zero (e.g., 1)
-- %MM - writes in the path the current minute with padding zero (e.g., 01)
-- %S - writes in the path the current seconds without padding zero (e.g., 4)
-- %SS - writes in the path the current seconds with padding zero (e.g., 04)
+- %UserName% - current windows username
+- %Y - the current year (e.g., 2022)
+- %m - the current month without padding zero (e.g., 6)
+- %mm - the current month with padding zero (e.g., 06)
+- %d - the current day without padding zero (e.g., 5)
+- %dd - the current day with padding zero (e.g., 05)
+- %H - the current hour without padding zero (e.g., 8)
+- %HH - the current hour with padding zero (e.g., 08)
+- %M - the current minute without padding zero (e.g., 1)
+- %MM - the current minute with padding zero (e.g., 01)
+- %S - the current seconds without padding zero (e.g., 4)
+- %SS - the current seconds with padding zero (e.g., 04)
+- %DrawingName% - the filename
+- %IssueDate% - the Sheet Issue Date builtin parameter
 
 Pratical Example.  
 
