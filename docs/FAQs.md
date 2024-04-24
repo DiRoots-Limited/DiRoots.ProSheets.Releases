@@ -32,7 +32,7 @@ If you don't see the PDF files appearing in the export path, it means that there
 
 Open PDF24 -> Settings -> Printer Driver and confirm that your settings are as per the image below.
 
-![ProSheets Selecting Revit Sheets and Views](../assets/images/PS-Revit-PDF24-Settings.png)  
+![ProSheets Selecting Revit Sheets and Views](../assets\images\PS-Print-Settings.png)  
 
 **Method B**  
 

@@ -42,6 +42,20 @@ Create the profiles in a network location to allow other users to import them.
 See the "Importing Profiles" section to teach users how to pull profiles from a network location.
 ```
 
+## Use the profile as default
+
+Once you have saved your profiles with the necessary practice settings, you can also add this profile as default to all teams. Follow the steps:
+
+1. Create a profile into ProSheets.
+2. Open the following location path %localappdata%\DiRoots\ProSheets\Profiles.
+3. Copy the Profile file from the current location.
+4. Replace it on all users' machines.
+
+The profile will now be immediately visible to users.
+
+![ProSheets default profile](../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
 ## Importing Profiles
 
 ProSheets profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
