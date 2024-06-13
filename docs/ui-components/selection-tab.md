@@ -31,29 +31,21 @@ The 'Views' radio button will show the existing views in the project.
 
 2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
 
-![ProSheets Selecting Revit Sheets and Views](../../)  
+![ProSheets Selecting Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-RadioButton.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 3. Select the "Opened Sheets/Views Only" option to filter only the list of open sheets and views.
 
-![ProSheets Opened Sheets/Views only](../../)  
+![ProSheets Opened Sheets/Views only](../../assets\images\GIFs\Selection\PS-OpenedSheets.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
-
-## Sort, Filter and Search
-
-ProSheets has options to sort, filter, and search to ease the selection.
-
-### Sort
-
-Click on the table headers to sort the views/sheets by one of the available parameters.  
 
 ### Add Parameters columns
 
 Right-click on the table header to select any other instance parameter available on your sheets. Examples - Current Review Date, Approved By, Appears on Sheet List, etc. 
 
-![ProSheets Sorting Revit Sheets and Views and right-click](../../)  
+![ProSheets Sorting Revit Sheets and Views and right-click](../../assets\images\GIFs\Selection\PS-RightClick.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 
@@ -63,12 +55,12 @@ Filtering options available:
 
 1. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.).
 
-![ProSheets Filter by View Type](../../)  
+![ProSheets Filter by View Type](../../assets\images\GIFs\Selection\PS-FilterViewTypes.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 2.  Select several sheets/views and save new sets for filtering.
 
-![ProSheets Save Sets](../../)  
+![ProSheets Save Sets](../../assets\images\GIFs\Selection\PS-Sets.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Search
@@ -94,7 +86,7 @@ For example, you can find Views by:
 - Discipline
 - Custom filename
 
-![ProSheets Searching for Revit Sheets and Views](../../)  
+![ProSheets Searching for Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
@@ -110,7 +102,40 @@ Main features:
 - Custom static fields  (e.g., SheetName-ShetNumber-MyStaticField)
 - Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
 
-![ProSheets building a custom filename with Revit parameters and custom parameters](../../)  
+![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets\images\GIFs\Selection\PS-FileName.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
+
+## Clear selection
+
+Quickly clear the current selection.
+
+---
+
+## Advanced Settings
+
+Set some advanced settings as defaults for your prints, using the radio button to set the desired setting.
+
+1. Temporary Hide/Isolate
+
+- Turn off the temporary Hide/Isolate mode before printing
+- Leave the temporary Hide/Isolate mode and print
+
+2. Worksharing Display
+
+- Turn off the Worksharing Display mode before printing
+- Leave the Worksharing Display mode on and print
+
+3. Reveal Hidden elements
+
+- Turn off the Reveal Hidden Elements mode before printing
+- Leave the Reveal Hidden Elements mode on and print
+
+4. Reveal Constraints
+
+- Turn off the Reveal Constraints mode before printing
+- Leave the Reveal Constrains mode on and print
+
+![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
