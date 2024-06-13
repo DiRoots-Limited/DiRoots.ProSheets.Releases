@@ -139,3 +139,7 @@ Set some advanced settings as defaults for your prints, using the radio button t
 
 ![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+---
+
+Let's move on to the next step. After selecting the sheets/views you want, click on "Next" to go to the print format settings.

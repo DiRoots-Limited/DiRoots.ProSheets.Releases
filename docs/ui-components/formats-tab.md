@@ -20,23 +20,30 @@ nav_order: 2
 
 ProSheets allows you to batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF)
 
-![ProSheets Selecting File Formats to export](../../assets/images/PS-PDF-settings.png)  
+![ProSheets Selecting File Formats to export](../../assets\images\GIFs\FileFormats\PS-SelectFormat.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
 ## PDF Settings
 
 ProSheets uses the Revit engine and a custom instance of PDF24 printer (diroots.prosheets printer) to export to PDF. ProSheets supports all Revit to PDF options plus some additional handy features.
 
-![ProSheets Revit PDF Settings](../../assets/images/PS-PDF-settings.png)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 Supported settings:
-- **all PDF Revit settings** (paper placement, oritantion, zoom, vector and raster processing, etc.)
-- additional settings for combined PDFs
-    - order views and sheets
-    - different page sizes in the same PDF
+
+- **All PDF Revit settings**
+    - Paper Size: set the paper size in the "Create" tab.
+    - Paper Placement: choose to locate the print in the "Center" or assign an X and Y value to the "Offset from Corner".
+    - Zoom: choose the zoom for printing by selecting "Fit to page" or by setting a % value for "Zoom".
+    - Printer: choose the printer you want, either the "PDF24" used as standard by ProSheets or "Revit Native" (premium feature).
+    - Orientation: set the orientation in the "Create" tab.
+    - Hidden Line Views: use the radio button to remove lines using "Vector processing" or "Raster processing".
+    - Options: use the checkbox to select some of the general settings you want.
+    - File: choose between printing each sheet/view separately or combining them into a single file. For the option to combine into a single file, set this as well:
+      - Custom File Name
+      - Order Sheets and Views
 	
 	**Note:** the additional settings work only if the 'Keep jumped to section' checkbox is unchecked.  
 	
-	![ProSheets Additional PDF Settings](../../assets/images/keep-jump-to-section.png)  
+	![ProSheets Additional PDF Settings](../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
 
 ## DWG Settings
 
@@ -44,9 +51,24 @@ ProSheets uses the Revit engine to export to DWG. All the DWG settings will be r
 
 Steps:
 1. In Revit UI go to File -> Export -> DWG and create a new DWG/DXF export setup as per your requirements (if you don't know how to create/modify a DWG/DXF setup, read this [article](https://knowledge.autodesk.com/support/revit/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Revit-DocumentPresent/files/GUID-E8443B4B-D55B-4630-BEE3-D2D8628CA17B-htm.html))
-2. Use the dropdown to switch between the existing DWG setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.  
 
-![ProSheets Revit DWG Export Settings](../../assets/images/GIFs/FileFormats/DWG-export-settings.gif)  
+2. Use the dropdown to switch between the existing DWG setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.
+
+```yaml
+# Note:
+To Create an "Export Group" go to "DWG Export" and select "Modify Export Setup" on the "Select Export Setup" group box.
+```
+
+3. Select the checkbox to "Export views on sheets and links as external references".
+
+4. Use the checkbox to "Bind Images as OLE in DWG File" (premium feature).
+
+```yaml
+# Note:
+This feature requires AutoCAD 2019 or higher, to work.
+```
+
+![ProSheets Revit DWG Export Settings](../../assets\images\GIFs\FileFormats\PS-DWG-GeneralSettings.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## DGN Settings
