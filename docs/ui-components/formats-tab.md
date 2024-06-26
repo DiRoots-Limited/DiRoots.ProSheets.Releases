@@ -40,8 +40,7 @@ Supported settings:
     - File: choose between printing each sheet/view separately or combining them into a single file. For the option to combine into a single file, set this as well:
       - Custom File Name
       - Order Sheets and Views
-	
-	**Note:** the additional settings work only if the 'Keep jumped to section' checkbox is unchecked.  
+      - Select the checkbox for "Keep Paper Size & Orientation" of the current selection
 	
 	![ProSheets Additional PDF Settings](../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
 
