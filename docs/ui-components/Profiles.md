@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Profiles
-parent: User Guide
+parent: ProSheets User Guide
 nav_order: 4
 ---
 

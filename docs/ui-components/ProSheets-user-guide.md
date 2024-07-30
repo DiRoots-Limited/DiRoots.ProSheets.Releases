@@ -1,6 +1,6 @@
 ---
 layout: default
-title: User Guide
+title: ProSheets User Guide
 nav_order: 3
 has_children: true
 permalink: /docs/user-guide

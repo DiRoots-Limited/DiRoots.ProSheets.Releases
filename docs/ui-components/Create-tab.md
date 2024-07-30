@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create Tab
-parent: User Guide
+parent: ProSheets User Guide
 nav_order: 3
 ---
 

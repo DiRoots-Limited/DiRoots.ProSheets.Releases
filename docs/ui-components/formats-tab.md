@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Formats Tab
-parent: User Guide
+parent: ProSheets User Guide
 nav_order: 2
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ProSheets Tips
+title: General Tips
 nav_order: 3
 ---
 
