@@ -7,7 +7,7 @@ nav_order: 3
 
 # Selection Tab
 {: .no_toc }
-The Selection tab is where you'll select the sheets and views to be exported and the file naming rules. ProSheets has options to sort, filter, and search to ease the selection. Plus, it has an advanced naming rule builder that allows you to customize the filenames.
+In this tab choose the Project Information Parameters to build the header of the document to be published.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -17,4 +17,6 @@ The Selection tab is where you'll select the sheets and views to be exported and
 
 ---
 
-## Select Sheets and Views or View/Sheet Sets
+## Select Project Information Parameters
+
+
