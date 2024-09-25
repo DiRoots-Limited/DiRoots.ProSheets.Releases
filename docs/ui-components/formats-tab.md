@@ -42,7 +42,7 @@ Supported settings:
       - Order Sheets and Views
       - Select the checkbox for "Keep Paper Size & Orientation" of the current selection
 	
-	![ProSheets Additional PDF Settings](../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
+	![ProSheets Additional PDF Settings](../../assets\images\PS-PDFSettings.gif)  
 
 ## DWG Settings
 
