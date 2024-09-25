@@ -97,12 +97,12 @@ The custom file name builder allows you to quickly set how you want your files t
 
 Main features:
 - Parametric filenaming (using Sheet/View and Project Information parameters)
-- Set generic field separator (e.g., SheetName-ShetNumber)
 - Set custom fields Separators (e.g., SheetName-ShetNumber_Rev1)
-- Custom static fields  (e.g., SheetName-ShetNumber-MyStaticField)
+- Custom Prefix and SUffix
 - Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
+- Custom Name Preview
 
-![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets\images\GIFs\Selection\PS-FileName.gif)  
+![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets\images\PS-CustomFileNameSelection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---

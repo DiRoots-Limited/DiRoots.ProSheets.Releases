@@ -43,7 +43,7 @@ Supported settings:
 	
 	**Note:** the additional settings work only if the 'Keep jumped to section' checkbox is unchecked.  
 	
-	![ProSheets Additional PDF Settings](../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
+	![ProSheets Additional PDF Settings](../../assets\images\PS-PDFSettings.gif)  
 
 ## DWG Settings
 
