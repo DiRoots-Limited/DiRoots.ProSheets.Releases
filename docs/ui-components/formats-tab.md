@@ -105,3 +105,7 @@ ProSheets uses the Revit engine to export to Images and HTML. ProSheets supports
 
 ![ProSheets Revit Images and HTML Settings](../../assets/images/PS-Images-HTML-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+---
+
+Let's move on to the next step. After defining the formats you want, click on "Next" to go to the create settings.
