@@ -31,7 +31,7 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="FREE Revit batch printer/exporter: ProSheets by DiRoots!"
+  title="Revit batch printer/exporter: ProSheets by DiRoots!"
   class="di-responsive-iframe" 
   src="https://www.youtube.com/embed/FkLAB8nbRh0?feature=oembed">
   </iframe>
@@ -41,7 +41,7 @@ If you have created content about ProSheets and you want to see it featured here
 
  <div class="di-iframe-container">
   <iframe
-  title="DiRoots | ProSheets | FREE Plugins for Revit"
+  title="DiRoots | ProSheets | Plugins for Revit"
   class="di-responsive-iframe" 
   src="https://www.youtube.com/embed/ZG_Wwe6ybds?feature=oembed">
   </iframe>
