@@ -31,7 +31,7 @@ Some additional environment variables are appended, shown in gray foreground, su
    - The selected parameters will automatically appear in the **Selected Parameters Table** on the right.
 3. To hide the parameters you haven’t selected, check the **Hide Unchecked** box at the bottom of the panel.
 
-![DocRegister Select Project Information Parameters](../../../../assets/images/DocRegister/Header1.gif)  
+![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header1.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Parameters Preview:
@@ -47,7 +47,7 @@ On this table you can organize the selected parameters and customize their appea
 - **Undo Name Change**: Reverts the name to the original
 - **Align Left/Right/Center**: Aligns the text of the column's content
 
-![DocRegister Select Project Information Parameters](../../../../assets/images/DocRegister/Parameters%20Preview%20Table.png)  
+![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Parameters%20Preview%20Table.png)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
@@ -61,6 +61,6 @@ You can add an image to personalize or brand the header section of the document.
 3. To remove the image, click on the **Trash Icon** next to the preview.
 
 
-![DocRegister Select Project Information Parameters](../../../../assets/images/DocRegister/Header2.gif)  
+![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header2.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
