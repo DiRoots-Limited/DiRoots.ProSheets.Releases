@@ -5,8 +5,10 @@ parent: DocRegister User Guide
 nav_order: 4
 ---
 
-# Selection Tab
+# Preview Tab
 {: .no_toc }
+
+The Preview tab is where y
 The Selection tab is where you'll select the sheets and views to be exported and the file naming rules. ProSheets has options to sort, filter, and search to ease the selection. Plus, it has an advanced naming rule builder that allows you to customize the filenames.
 
 ## Table of contents

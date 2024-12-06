@@ -5,9 +5,9 @@ parent: DocRegister User Guide
 nav_order: 3
 ---
 
-# Selection Tab
+# Headers Tab
 {: .no_toc }
-In this tab choose the Project Information Parameters to build the header of the document to be published, as well as select an image to insert in that header.
+In this tab choose the Project Information Parameters that will be used to build the header of the document to be published, as well as select an image to insert in that header.
 
 ## Table of contents
 {: .no_toc .text-delta }
