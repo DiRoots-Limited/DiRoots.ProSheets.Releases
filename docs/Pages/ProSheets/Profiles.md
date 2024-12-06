@@ -32,7 +32,7 @@ Steps:
 3. Choose if you want to create a profile with the default ProSheets settings, with your current settings, or import settings from an existing profile.
 4. Click on the "Create" button to create the profile.
 
-![ProSheets Creating profiles](../../assets/images/GIFs/Profiles/PS-Create-Profiles.gif)  
+![ProSheets Creating profiles](../../../assets/images/GIFs/Profiles/PS-Create-Profiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ```
@@ -53,7 +53,7 @@ Once you have saved your profiles with the necessary practice settings, you can 
 
 The profile will now be immediately visible to users.
 
-![ProSheets default profile](../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
+![ProSheets default profile](../../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## Importing Profiles
@@ -67,7 +67,7 @@ Steps:
 4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 5. Click on the "Create" button to create the profile.
 
-![ProSheets Importing profiles](../../assets/images/GIFs/Profiles/PS-Import-Profiles.gif)  
+![ProSheets Importing profiles](../../../assets/images/GIFs/Profiles/PS-Import-Profiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## Deleting Profiles
@@ -77,4 +77,4 @@ Steps:
 2. Click on the dustbin icon next to the profiles list.
 3. Confirm.
 
-![ProSheets Deleting profiles](../../assets/images/PS-delete-profiles.png)  
+![ProSheets Deleting profiles](../../../assets/images/PS-delete-profiles.png)  

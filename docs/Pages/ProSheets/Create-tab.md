@@ -18,7 +18,7 @@ nav_order: 3
 
 ## User Interface Overview
 
-![ProSheets Revit Export Tab](../../assets\images\GIFs\Export\PS-MainUI.png)  
+![ProSheets Revit Export Tab](../../../assets\images\GIFs\Export\PS-MainUI.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## Export Location
@@ -38,7 +38,7 @@ By selecting the option 'Save all files in the same folder location', ProSheets 
 
 By selecting the option 'Save and split files by file format', ProSheets will create subfolder to organize the files by file format (e.g., PDF, DWG, IFC, etc.).
 
-![ProSheets Revit Save and split files by file format](../../assets/images/PS-split-files-by-format.png)  
+![ProSheets Revit Save and split files by file format](../../../assets/images/PS-split-files-by-format.png)  
 
 ### Environment variables
 
@@ -70,7 +70,7 @@ C:\Users\Joao_\OneDrive - DiRoots Limited\Documents\DiRoots\ProSheets\ExportFile
 
 Output:  
 
-![ProSheets Revit path with environment variables](../../assets/images/PS-path-environment-variables.png)
+![ProSheets Revit path with environment variables](../../../assets/images/PS-path-environment-variables.png)
 
 #### Organize folders
 
@@ -80,7 +80,7 @@ You can also select the radio buttons to save all files in the same folder locat
 
 By default ProSheets automically detects the paper size and orientation of your sheets. The auto-detection feature runs automically and it is based on the Title Block dimensions (the built-in parameters Sheet Width and Sheet Heigh).
 
-![ProSheets Revit Paper Size and Orientation Auto Dectection](../../assets/images/PS-Revit-Sheet-Width-Height-Orientation.png)  
+![ProSheets Revit Paper Size and Orientation Auto Dectection](../../../assets/images/PS-Revit-Sheet-Width-Height-Orientation.png)  
 
 ### Manually set the Paper Size and Orientation
 
@@ -90,7 +90,7 @@ Steps:
 1. Use the checkboxes to select the sheets/views you want to change the paper size and orientation
 2. Click on the dropdown list to "Set Paper Size" and "Set Orientation"
 
-![ProSheets Revit Paper Size and Orientation Manually Set](../../assets\images\GIFs\Export\PS-PaperSizeOrientation.gif)  
+![ProSheets Revit Paper Size and Orientation Manually Set](../../../assets\images\GIFs\Export\PS-PaperSizeOrientation.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 
@@ -98,7 +98,7 @@ Steps:
 
 ProSheets also allows you to generate export reports. The report can be generated in .XLSX (a.k.a Excel spreadsheet) or .CSV (comma-separated values).  
 
-![ProSheets Revit Export Report to Excel or CSV](../../assets\images\GIFs\Export\PS-Report.gif)  
+![ProSheets Revit Export Report to Excel or CSV](../../../assets\images\GIFs\Export\PS-Report.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 Information included in the report:
@@ -106,5 +106,5 @@ Information included in the report:
 - Total export time and date of the export job
 
 Example:
-![ProSheets Revit Export Report in Excel](../../assets/images/PS-Revit-Excel-Report.png)  
+![ProSheets Revit Export Report in Excel](../../../assets/images/PS-Revit-Excel-Report.png)  
 

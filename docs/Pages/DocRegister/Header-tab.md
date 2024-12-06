@@ -26,10 +26,9 @@ In this table, you can select the information parameters parameters to be includ
 Some additional environment variables are appended, shown in gray foreground, such as Date and Windows User Name.
 
 1. Use the **Search** bar to quickly locate a parameter by name.
-2. In the **Available Parameters** panel:
-   - Use the checkboxes to select the desired parameters.
-   - The selected parameters will automatically appear in the **Selected Parameters Table** on the right.
-3. To hide the parameters you haven’t selected, check the **Hide Unchecked** box at the bottom of the panel.
+2. Use the checkboxes to select the desired parameters.
+3. The selected parameters will automatically appear in the **Selected Parameters Table** on the right.
+4. To hide the parameters you haven’t selected, check the **Hide Unchecked** box at the bottom of the panel.
 
 ![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header1.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -47,7 +46,7 @@ On this table you can organize the selected parameters and customize their appea
 - **Undo Name Change**: Reverts the name to the original
 - **Align Left/Right/Center**: Aligns the text of the column's content
 
-![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Parameters%20Preview%20Table.png)  
+![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/ParametersPreviewTable1.png)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---

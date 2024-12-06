@@ -20,7 +20,7 @@ nav_order: 2
 
 ProSheets allows you to batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF)
 
-![ProSheets Selecting File Formats to export](../../assets\images\GIFs\FileFormats\PS-SelectFormat.gif)  
+![ProSheets Selecting File Formats to export](../../../assets\images\GIFs\FileFormats\PS-SelectFormat.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## PDF Settings
@@ -43,7 +43,7 @@ Supported settings:
 	
 	**Note:** the additional settings work only if the 'Keep jumped to section' checkbox is unchecked.  
 	
-	![ProSheets Additional PDF Settings](../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
+	![ProSheets Additional PDF Settings](../../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
 
 ## DWG Settings
 
@@ -68,7 +68,7 @@ To Create an "Export Group" go to "DWG Export" and select "Modify Export Setup" 
 This feature requires AutoCAD 2019 or higher, to work.
 ```
 
-![ProSheets Revit DWG Export Settings](../../assets\images\GIFs\FileFormats\PS-DWG-GeneralSettings.gif)  
+![ProSheets Revit DWG Export Settings](../../../assets\images\GIFs\FileFormats\PS-DWG-GeneralSettings.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## DGN Settings
@@ -79,30 +79,30 @@ Steps:
 1. In Revit UI go to File -> Export -> DGN and create a new DGN export setup as per your requirements (if you don't know how to create/modify a DGN setup, read this [article](https://knowledge.autodesk.com/support/revit/learn-explore/caas/CloudHelp/cloudhelp/2021/ENU/Revit-DocumentPresent/files/GUID-253B99CA-09C0-456E-B260-E69F5C14F793-htm.html))
 2. Use the dropdown to switch between the existing DGN setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.  
 
-![ProSheets Revit DGN Export Settings](../../assets/images/GIFs/FileFormats/DWG-export-settings.gif)  
+![ProSheets Revit DGN Export Settings](../../../assets/images/GIFs/FileFormats/DWG-export-settings.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## DWF Settings
 
 ProSheets uses the Revit engine to export to DWF/DWFx. ProSheets supports and exposes in its UI all Revit to DWF/DWFx export options.
 
-![ProSheets Revit DWF/DWFx Settings](../../assets/images/PS-DWF-DWFx-settings.png)  
+![ProSheets Revit DWF/DWFx Settings](../../../assets/images/PS-DWF-DWFx-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 ## NWC Settings
 
 ProSheets uses the Autodesk Navisworks NWC Export Utility to export to NWC. You must install the [Autodesk Navisworks NWC Export Utility](https://www.autodesk.com/products/navisworks/3d-viewers) (if it's not yet installed).
 
-![ProSheets Revit NWC Settings](../../assets/images/PS-NWC-settings.png)  
+![ProSheets Revit NWC Settings](../../../assets/images/PS-NWC-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 ## IFC Settings
 
 ProSheets uses the Revit engine to export to IFC. ProSheets supports and exposes in its UI all Revit to IFC export options.
 
-![ProSheets Revit IFC Settings](../../assets/images/PS-IFC-settings.png)  
+![ProSheets Revit IFC Settings](../../../assets/images/PS-IFC-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 ## Images and HTML Settings
 
 ProSheets uses the Revit engine to export to Images and HTML. ProSheets supports and exposes in its UI all Revit to Images and HTML export options.
 
-![ProSheets Revit Images and HTML Settings](../../assets/images/PS-Images-HTML-settings.png)  
+![ProSheets Revit Images and HTML Settings](../../../assets/images/PS-Images-HTML-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
