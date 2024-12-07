@@ -5,11 +5,11 @@ parent: DocRegister User Guide
 nav_order: 4
 ---
 
-# Preview Tab
+# Preview/Edit Tab
 {: .no_toc }
 
-The Preview tab is where y
-The Selection tab is where you'll select the sheets and views to be exported and the file naming rules. ProSheets has options to sort, filter, and search to ease the selection. Plus, it has an advanced naming rule builder that allows you to customize the filenames.
+The Preview tab is where you'll be able to preview the document before exporting. 
+
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -19,4 +19,14 @@ The Selection tab is where you'll select the sheets and views to be exported and
 
 ---
 
-## Select Sheets and Views or View/Sheet Sets
+## Preview/Edit
+
+Use this tab at any point to review how the document will be created.
+You have the option to enable editing the file, and make changes to it before exporting.
+Keep in mind that any changes you make here will be lost if you return to a previous tab.
+
+When you finish reviewing and editing you can Publish the document, you'll be prompted with a dialog to select a folder and the document will be created there.
+
+
+![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/ParametersPreviewTable1.png)  
+<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>

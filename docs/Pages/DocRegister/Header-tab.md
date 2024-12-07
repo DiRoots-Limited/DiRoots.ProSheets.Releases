@@ -33,15 +33,15 @@ Some additional environment variables are appended, shown in gray foreground, su
 ![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header1.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-### Parameters Preview:
+## Parameters Preview:
 
 On this table you can organize the selected parameters and customize their appearance:
-#### Action Buttons
+### Action Buttons
 
 - **Reorder Parameters**: Use the arrow buttons below the table to rearrange the order of selected parameters. The order you set here will determine their placement in the final document.
 - **Sort Parameters**: Use the sort parameters button to automatically sort the parameters in alphabetical order
 
-#### Context Menu
+### Context Menu
 - **Edit Parameter Name**: Overrides the parameter's name when exporting
 - **Undo Name Change**: Reverts the name to the original
 - **Align Left/Right/Center**: Aligns the text of the column's content

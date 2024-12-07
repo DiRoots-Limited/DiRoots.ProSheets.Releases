@@ -21,35 +21,22 @@ The Revisions tab is where you'll select the revisions to be exported. DocRegist
 
 In the first table will display all the revisions in the current project and linked files (if selected). Select the Revisions to add to the document.
 
-![DocRegister Select Revisions](../../)  
-<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
 
 ### Number of Columns
 
 Use this field to assign a number of revision columns as a default for your document. Please note that if you select a number higher than the number of revisions selected, the extra columns will be empty in the published document.
 
-![DocRegister Number of Columns](../../)  
-<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
 ### Search
 
 Use the searchbox to search by Sheets.
 
-![DocRegister Search Sheets](../../)  
-<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Hide Unchecked
 
 When selecting the sheets you want, check the "Hide Unchecked" option to view only the selected sheets.
 
-![DocRegister Hide Unchecked Sheets](../../)  
-<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
-### Revision Marker
-
-This field will only be activated if the numbering system for the revisions in the project is selected as "Per Project". This way, you can assign a desired character to mark the revisions in the document.
-
-![DocRegister Revision Marker](../../)  
+![DocRegister Select Revisions](../../../assets/images/DocRegister/Revisions1.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
@@ -58,18 +45,30 @@ This field will only be activated if the numbering system for the revisions in t
 
 Select the Revisions Properties to add to the document. The selected properties will be shown in the table on the right.
 
-1. Orientation - select the desired position to show the properties in the document, either Vertical or Horizontal.
+1. **Orientation** - select the desired position to show the properties in the document, either Vertical or Horizontal.
 
-2. Name on Document - change the name of the property that will be shown in the document. This change will not affect the current project in Revit.
+2. **Name on Document** - change the name of the property that will be shown in the document. This change will not affect the current project in Revit.
 
-3. Use the arrows bellow to sort the properties as you want in the document.
-
-![DocRegister Properties](../../)  
+![DocRegister Properties](../../../assets/images/DocRegister/Revisions2.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+---
+## Table
+
+1. Use the arrows bellow to sort the properties as you want in the document.
+
+1. Click the sort button to sort alphabetically.
+
+![DocRegister Revision Marker](../../../assets/images/DocRegister/Revisions3.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+### Revision Marker
+
+This field will only be activated if the numbering system for the revisions in the project is selected as "Per Project". This way, you can assign a desired character to mark the revisions in the document.
 
 ### Clear
 
 Use the "Clear" button to reset the selected Revisions and Properties.
 
-![DocRegister Clear](../../)  
+![DocRegister Revision Marker](../../../assets/images/DocRegister/Revisions4.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
