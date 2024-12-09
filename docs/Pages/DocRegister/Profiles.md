@@ -20,9 +20,9 @@ nav_order: 4
 
 The following settings are saved in the profiles.
 
-- Sheets Parameters and their customization
-- Revisions Properties and their customization
-- Project Parameters and their customization
+- Sheets Parameters and their customizations
+- Revisions Properties and their customizations
+- Project Parameters and their customizations
 - Added image
 
 ## Creating Profiles
@@ -30,10 +30,10 @@ The following settings are saved in the profiles.
 DocRegister profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
 Steps:
-1. In the window header, click on the "save as" dropdown button next to the profiles list.
+1. In the window header, click on the Save As dropdown button next to the profiles list.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
 3. Choose the location to save it.
-4. Click on the "Save" button to create the profile.
+4. Click on the Save button to create the profile.
 
 ![DocRegister Creating profiles](../../../assets/images/DocRegister/Profiles1-Create.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-DocRegister/).</sub>
@@ -51,7 +51,7 @@ DocRegister profiles make it easy to import existing profiles to stay compliant 
 
 Steps:
 1. In the window header, click on the Import button next to the profiles list.
-2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
+2. Use the File Explorer Dialog to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the “Open” button to import the profile.
 
 ![DocRegister Importing profiles](../../../assets/images/DocRegister/Profiles2-Import.gif) 
@@ -60,7 +60,7 @@ Steps:
 ## Deleting Profiles
 
 Steps:
-1. In the window header, select the from the dropdown the profile you want to delete
+1. In the window header, select the profile you wish to delete from the dropdown list.
 2. Click on the dustbin icon next to the profiles list.
 3. Confirm.
 

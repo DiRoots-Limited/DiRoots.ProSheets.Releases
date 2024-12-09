@@ -7,7 +7,7 @@ nav_order: 3
 
 # Headers Tab
 {: .no_toc }
-In this tab choose the Project Information Parameters that will be used to build the header of the document to be published, as well as select an image to insert in that header.
+In this tab choose the Project Information Parameters to build the document's header and select an image to include in it.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -21,7 +21,7 @@ In this tab choose the Project Information Parameters that will be used to build
 
 In this table, you can select the information parameters to be included in the header section of the document. Use the checkboxes to select the parameters.
 
-Some additional environment variables are appended, shown in gray foreground, such as Date and Windows User Name.
+Some additional environment variables are appended, displayed in gray, such as Date and Windows User Name.
 
 1. Use the **Search** bar to quickly locate a parameter by name.
 2. Use the checkboxes to select the desired parameters.
@@ -33,16 +33,16 @@ Some additional environment variables are appended, shown in gray foreground, su
 
 ## Parameters Preview:
 
-On this table you can organize the selected parameters and customize their appearance:
+In this table, you can arrange the selected parameters and adjust their display settings:
 ### Action Buttons
 
 - **Reorder Parameters**: Use the arrow buttons below the table to rearrange the order of selected parameters. The order you set here will determine their placement in the final document.
-- **Sort Parameters**: Use the sort parameters button to automatically sort the parameters in alphabetical order
+- **Sort Parameters**: Use the Sort Parameters button to arrange them alphabetically.
 
 ### Context Menu
-- **Edit Parameter Name**: Overrides the parameter's name when exporting
-- **Undo Name Change**: Reverts the name to the original
-- **Align Left/Right/Center**: Aligns the text of the column's content
+- **Edit Parameter Name**: Override the parameter's name when exporting.
+- **Undo Name Change**: Revert the name to the original.
+- **Align Left/Right/Center**: Align the text of the column's content.
 
 ![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header2-ParametersPreview.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -51,7 +51,7 @@ On this table you can organize the selected parameters and customize their appea
 
 ## Add an Image to the Header
 
-You can add an image to personalize or brand the header section of the document. Supported image formats are `.png` and `.jpg`.
+You can add an image, such as a brand logo, to personalize the header section of the document. Supported image formats are `.png` and `.jpg`.
 
 1. Click the **Image Icon** below the Selected Parameters Table to upload an image.
 2. Once uploaded, the image will be displayed in the preview area.
