@@ -30,12 +30,12 @@ The following settings are saved in the profiles.
 DocRegister profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
 Steps:
-1. In the window header, click on the plus (+) button next to the profiles list.
+1. In the window header, click on the "save as" dropdown button next to the profiles list.
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
-3. Choose if you want to create a profile with the default DocRegister settings, with your current settings, or import settings from an existing profile.
-4. Click on the "Create" button to create the profile.
+3. Choose the location to save it.
+4. Click on the "Save" button to create the profile.
 
-![DocRegister Creating profiles](../../)  
+![DocRegister Creating profiles](../../../assets/images/DocRegister/Profiles1-Create.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-DocRegister/).</sub>
 
 ```
@@ -45,32 +45,16 @@ Create the profiles in a network location to allow other users to import them.
 See the "Importing Profiles" section to teach users how to pull profiles from a network location.
 ```
 
-## Use the profile as default
-
-Once you have saved your profiles with the necessary practice settings, you can also add this profile as default to all teams. Follow the steps:
-
-1. Create a profile into DocRegister.
-2. Open the following location path %localappdata%\DiRoots\DocRegister\Profiles.
-3. Copy the Profile file from the current location.
-4. Replace it on all users' machines.
-
-The profile will now be immediately visible to users.
-
-![DocRegister default profile](../../)  
-<sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-DocRegister/).</sub>
-
 ## Importing Profiles
 
 DocRegister profiles make it easy to import existing profiles to stay compliant with your company standards (e.g., profiles in a network location).
 
 Steps:
-1. In the window header, click on the plus (+) button next to the profiles list.
-2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
-3. Choose 'Import from file' to import settings from an existing profile
-4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
-5. Click on the "Create" button to create the profile.
+1. In the window header, click on the Import button next to the profiles list.
+2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
+3. Click on the “Open” button to import the profile.
 
-![DocRegister Importing profiles](../../)  
+![DocRegister Importing profiles](../../../assets/images/DocRegister/Profiles2-Import.gif) 
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-DocRegister/).</sub>
 
 ## Deleting Profiles
@@ -80,4 +64,4 @@ Steps:
 2. Click on the dustbin icon next to the profiles list.
 3. Confirm.
 
-![DocRegister Deleting profiles](../../)  
+![DocRegister Deleting profiles](../../../assets/images/DocRegister/Profiles3-Delete.gif)
