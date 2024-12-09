@@ -24,8 +24,11 @@ In this table, you can select the information parameters to be included in the h
 Some additional environment variables are appended, displayed in gray, such as Date and Windows User Name.
 
 1. Use the **Search** bar to quickly locate a parameter by name.
+
 2. Use the checkboxes to select the desired parameters.
+
 3. The selected parameters will automatically appear in the **Selected Parameters Table** on the right.
+
 4. To hide the parameters you haven’t selected, check the **Hide Unchecked** box at the bottom of the panel.
 
 ![DocRegister Select Project Information Parameters](../../../assets/images/DocRegister/Header1-SelectParameters.gif)  
@@ -54,7 +57,9 @@ In this table, you can arrange the selected parameters and adjust their display 
 You can add an image, such as a brand logo, to personalize the header section of the document. Supported image formats are `.png` and `.jpg`.
 
 1. Click the **Image Icon** below the Selected Parameters Table to upload an image.
+
 2. Once uploaded, the image will be displayed in the preview area.
+
 3. To remove the image, click on the **Trash Icon** next to the preview.
 
 

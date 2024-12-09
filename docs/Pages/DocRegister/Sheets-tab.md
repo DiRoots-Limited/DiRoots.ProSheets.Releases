@@ -20,12 +20,17 @@ The Sheets tab is where you select the sheets to place in the general revision d
 ## Available Sheets
 
 Select sheets for the revision document by using the checkboxes in this table.
-- Organize Sheets according to the Browser Organization or using a Sheet List.
-- Use the **Search** bar to quickly locate a sheet by name or number.
-- Use the checkboxes to select the desired sheets.
-- The selected sheets will automatically appear in the table on the right.
-- Use the **Hide Unchecked** box at the bottom of the panel to hide the sheets you haven’t selected.
-- Check the **Linked Files** option to include sheets from linked files.
+1. Organize Sheets according to the Browser Organization or using a Sheet List.
+
+2. Use the **Search** bar to quickly locate a sheet by name or number.
+
+3. Use the checkboxes to select the desired sheets.
+
+4. The selected sheets will automatically appear in the table on the right.
+
+5. Use the **Hide Unchecked** box at the bottom of the panel to hide the sheets you haven’t selected.
+
+6. Check the **Linked Files** option to include sheets from linked files.
 
 ![DocRegister Linked Files](../../../assets/images/DocRegister/Sheets-Available.gif)   
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>

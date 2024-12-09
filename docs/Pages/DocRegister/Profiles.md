@@ -31,8 +31,11 @@ DocRegister profiles make it easy to save your settings and reuse them later. It
 
 Steps:
 1. In the window header, click on the Save As dropdown button next to the profiles list.
+
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
+
 3. Choose the location to save it.
+
 4. Click on the Save button to create the profile.
 
 ![DocRegister Creating profiles](../../../assets/images/DocRegister/Profiles1-Create.gif)
@@ -51,7 +54,9 @@ DocRegister profiles make it easy to import existing profiles to stay compliant 
 
 Steps:
 1. In the window header, click on the Import button next to the profiles list.
+
 2. Use the File Explorer Dialog to find the profile (e.g., in a shared folder, location network, or local computer)
+
 3. Click on the “Open” button to import the profile.
 
 ![DocRegister Importing profiles](../../../assets/images/DocRegister/Profiles2-Import.gif) 
@@ -61,7 +66,9 @@ Steps:
 
 Steps:
 1. In the window header, select the profile you wish to delete from the dropdown list.
+
 2. Click on the dustbin icon next to the profiles list.
+
 3. Confirm.
 
 ![DocRegister Deleting profiles](../../../assets/images/DocRegister/Profiles3-Delete.gif)
