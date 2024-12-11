@@ -30,13 +30,13 @@ The following settings are saved in the profiles.
 DocRegister profiles make it easy to save your settings and reuse them later. It is also a handy way for BIM Managers to create standard rules (e.g., filename conventions) and share them across the organization.
 
 Steps:
-1. In the window header, click on the Save As dropdown button next to the profiles list.
+1. In the window header, click on the "Save As" dropdown button next to the profiles list.
 
 2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
 
 3. Choose the location to save it.
 
-4. Click on the Save button to create the profile.
+4. Click on the "Save" button to create the profile.
 
 ![DocRegister Creating profiles](../../../assets/images/DocRegister/Profiles1-Create.gif)
 <sub>Note: the version on the image may not reflect the [latest version of DocRegister](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-DocRegister/).</sub>
