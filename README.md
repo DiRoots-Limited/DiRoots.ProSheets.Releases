@@ -1,6 +1,6 @@
  
  
-ProSheets is a free plugin for Autodesk Revit Add-in to batch export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and Images (JPEG, PNG, TIFF, etc). 
+ProSheets is a plugin for Autodesk Revit to batch export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and Images (JPEG, PNG, TIFF, etc). 
 
 ### Main features
 - Export to Revit to PDF, DWG, DGN, DWF, NWC, IFC, and Images.
@@ -24,12 +24,7 @@ ProSheets is a free plugin for Autodesk Revit Add-in to batch export Views and S
 [Provide Feedback](https://diroots.com/contact-us/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets)
 [Custom Software Development](https://diroots.com/custom-software-development/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets)
 
-[DiRoots Limited](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets) 
-
-🇬🇧 UK Office:
-Thomas House,
-84 Eccleston Square,
-SW1V 1PX, London
+[DiRoots, LDA](https://diroots.com/?utm_source=DiRootsAppManager&utm_medium=App-Description&utm_campaign=ProSheets) 
 
 🇵🇹 Portugal Office:
 R. da Marcha Gualtariana, 628

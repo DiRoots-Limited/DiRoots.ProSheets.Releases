@@ -40,10 +40,9 @@ Supported settings:
     - File: choose between printing each sheet/view separately or combining them into a single file. For the option to combine into a single file, set this as well:
       - Custom File Name
       - Order Sheets and Views
+      - Select the checkbox for "Keep Paper Size & Orientation" of the current selection
 	
-	**Note:** the additional settings work only if the 'Keep jumped to section' checkbox is unchecked.  
-	
-	![ProSheets Additional PDF Settings](../../../assets\images\GIFs\FileFormats\PS-PDF-GeneralSettings.gif)  
+	![ProSheets Additional PDF Settings](../../../assets\images\PS-PDFSettings.gif)  
 
 ## DWG Settings
 
@@ -106,3 +105,7 @@ ProSheets uses the Revit engine to export to Images and HTML. ProSheets supports
 
 ![ProSheets Revit Images and HTML Settings](../../../assets/images/PS-Images-HTML-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+---
+
+Let's move on to the next step. After defining the formats you want, click on "Next" to go to the create settings.
