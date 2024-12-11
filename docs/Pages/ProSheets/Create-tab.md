@@ -137,28 +137,28 @@ To activate this function, click on the “Schedule Assistan” button to activa
   - If the user chooses “Weekly”, they must then choose the days of the week on which they want the printout to be made. 
   - Use the checkbox to select the days.
 
-![ProSheets - Scheduling Assitant](../../assets\images\GIFs\Export\PS-SchedulingAssistant.gif)  
+![ProSheets - Scheduling Assitant](../../../assets\images\GIFs\Export\PS-SchedulingAssistant.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Scheduling Assistant Legend
 
 Note that in the bottom bar of ProSheets there is a legend indicating whether the Scheduling Assistant is active or not.
 
-![ProSheets - Scheduling Assitant on/off](../../assets\images\GIFs\Export\PS-Legend.png)  
+![ProSheets - Scheduling Assitant on/off](../../../assets\images\GIFs\Export\PS-Legend.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 #### Scheduling Assistant Status
 
 When you activate the Scheduling Assistant, the tool records all the current settings. If the user makes changes later, the status will indicate that the Scheduling Assistant is not updated according to the latest changes. 
 
-![ProSheets - Scheduling Assitant status](../../assets\images\GIFs\Export\PS-Status.png)  
+![ProSheets - Scheduling Assitant status](../../../assets\images\GIFs\Export\PS-Status.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 #### Scheduling Assistant Update
 
 Whenever the Scheduling Assistant is out of date, the “Update” button becomes active. When clicked, the plugin displays a report of the changes made, so that the user can choose to continue or go back.
 
-![ProSheets - Scheduling Assitant update](../../assets\images\GIFs\Export\PS-Update.gif)  
+![ProSheets - Scheduling Assitant update](../../../assets\images\GIFs\Export\PS-Update.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---

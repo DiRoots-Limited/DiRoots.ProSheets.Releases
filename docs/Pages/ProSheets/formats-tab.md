@@ -43,6 +43,7 @@ Supported settings:
       - Select the checkbox for "Keep Paper Size & Orientation" of the current selection
 	
 	![ProSheets Additional PDF Settings](../../../assets\images\PS-PDFSettings.gif)  
+  <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## DWG Settings
 
