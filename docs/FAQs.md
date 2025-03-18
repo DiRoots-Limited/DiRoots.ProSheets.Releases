@@ -45,7 +45,7 @@ Open PDF24 -> Settings -> Printer Driver and confirm that your settings are as p
 If ProSheets is telling you that your printer is in error state, it means that the Windows printer services stopped working.  
 Often, restart your computer is enough to fix the problem.
 
-## Printer Permission Issue in ProSheets
+## Printer Permission Issue in ProSheets (Failed to access print parameters)
 
 ### Problem
 If you receive an error stating: `Unable to select Printer Printer Name` or `Failed to access print parameters`, this typically points to a printer driver or permissions issue that prevents ProSheets from accessing complete printer information. Alternatively, it may indicate that no default printer is set on the system.
