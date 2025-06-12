@@ -17,7 +17,7 @@ ProSheets is a free plugin for Autodesk Revit Add-in to batch export Views and S
 - Order the drawings when combining them into a single PDF document.
 
 ### Supported Revit Versions
-2018, 2019, 2020, 2021, 2022, 2023, 2024, and 2025.
+2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, and 2026.
 
 ### Useful links
 [User Guide](https://docs.prosheets.diroots.com/)
