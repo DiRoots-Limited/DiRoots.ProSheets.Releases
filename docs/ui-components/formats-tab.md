@@ -18,7 +18,7 @@ nav_order: 2
 
 ## Supported File Formats
 
-ProSheets allows you to batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, and IMG (JPEG, PNG, TIFF)
+ProSheets allows you to batch Export Sheets/Views to PDF, DWG, DGN, DWF, NWC, IFC, IMG (JPEG, PNG, TIFF) and XML
 
 ![ProSheets Selecting File Formats to export](../../assets\images\GIFs\FileFormats\PS-SelectFormat.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -104,6 +104,12 @@ ProSheets uses the Revit engine to export to IFC. ProSheets supports and exposes
 ProSheets uses the Revit engine to export to Images and HTML. ProSheets supports and exposes in its UI all Revit to Images and HTML export options.
 
 ![ProSheets Revit Images and HTML Settings](../../assets/images/PS-Images-HTML-settings.png)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+## XML Settings
+
+ProSheets uses the selected Sheets and Views parameters to build an XML document or fragment. It also supports Project Information parameters, environment variables (such as Date and Time), and custom Elements. A default XML element name is created from the parameter name, but it can be overridden.
+![ProSheets XML Settings](../../assets/images/PS-XML-settings.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
