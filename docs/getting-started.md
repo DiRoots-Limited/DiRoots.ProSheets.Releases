@@ -26,7 +26,7 @@ Download the [latest version of ProSheets](https://diroots.com/revit-plugins/rev
 
 ### Compatibility
 - Windows 7, 8, 10 and 11.
-- Revit 2017, 2018, 2019, 2020, 2021, 2022 and 2023.
+- Revit 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
 
 ### Prerequisites
 - Admin permissions.
@@ -74,6 +74,13 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 ```yaml
 # In this example ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
 <installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
+```
+
+- Skip PDF24 install. Warning, you'll only be able to export to pdf using the native Revit pdf exporter, in the premium version of ProSheets and in the supported Revit Versions
+
+```yaml
+# In this example ProSheets will be installed without PDF24
+<installer-name>.exe /i // /qn accept_eula=1 INSTALL_PDF24=""
 ```
 
 ## Uninstall
