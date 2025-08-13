@@ -84,7 +84,7 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 ```
 
 - Skip PDF24 install. 
-Warning: You will only be able to export to PDF using the native Revit PDF exporter, which is available only in Revit 2022 or newer and requires a ProSheets Premium license.
+Warning: You will only be able to export to PDF using the native Revit PDF exporter, which is available only in Revit 2022 or newer and requires a [ProSheets Premium license](https://diroots.com/revit-plugins/quote-request/).
 
 ```yaml
 # In this example ProSheets will be installed without PDF24
