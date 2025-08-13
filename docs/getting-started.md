@@ -83,7 +83,8 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 <installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
 ```
 
-- Skip PDF24 install. Warning, you'll only be able to export to pdf using the native Revit pdf exporter, in the premium version of ProSheets and in the supported Revit Versions
+- Skip PDF24 install. 
+Warning: You will only be able to export to PDF using the native Revit PDF exporter, which is available only in Revit 2022 or newer and requires a ProSheets Premium license.
 
 ```yaml
 # In this example ProSheets will be installed without PDF24
