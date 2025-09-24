@@ -74,3 +74,36 @@ If your printers are created via a login script or group policy, the problematic
 Several users have reported that the root cause of this issue was linked to a **network printer**. Identifying and disabling this printer often resolved the error.
 
 By following these steps, you should be able to resolve printer-related issues when using **DiRoots ProSheets** and **PDF24**.
+
+## Why does ProSheets show "No Internet Connection"?
+
+If you see the error **"Please check your internet connection"** while using ProSheets, here's what it means and how to fix it:
+
+### Why this happens
+- **License Verification**: ProSheets needs an active internet connection to validate premium subscriptions.  
+- **Export Tracking (Free Version)**: Free users have a monthly export limit, which must be verified online.  
+
+If your internet is working but the error still appears, it's usually caused by your **firewall, proxy, or antivirus blocking ProSheets/Revit**.
+
+### How to fix it
+1. **Check firewall/antivirus**: Make sure Revit/ProSheets is not blocked.  
+2. **Whitelist these domains**:  
+   - `*.diroots.com`  
+   - `*.dikeeper.com`  
+   - `dikeeper-prod-euw-api-app-eefmhef2hhevbsgr.westeurope-01.azurewebsites.net`  
+3. **Verify your connection**: Confirm you can access other online resources while using Revit.  
+4. **Check ProSheets logs** (if the issue persists):  
+
+```
+%localappdata%\DiRoots\ProSheets\Log
+```
+
+Share the log files with our support team for further analysis.  
+
+### Special case: Offline environments
+ProSheets does **not** work fully offline by default.  
+If your organization requires an **offline license** (e.g., for secure IT environments), please contact DiRoots Support. Offline activation is available only under specific conditions.
+
+---
+
+✅ After restoring internet access or adjusting your firewall rules, ProSheets should work as expected.
