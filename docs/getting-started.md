@@ -30,18 +30,18 @@ Download the [latest version of ProSheets](https://diroots.com/revit-plugins/rev
 
 ### Prerequisites
 - Admin permissions.
-- PDF24 (the compatible version will be automatically installed. Dont't do it manually).
+- PDF24 (the compatible version will be installed automatically. Don’t install it manually).
 
 ```yaml
 # Remarks
-- the installation is done per-machine
+- The installation is done per-machine.
 - %ProgramData%\Autodesk\Revit\Addins\
 ```
 
 ### Standard Installation
 
 ```yaml
-This method is ideal for individuals with admin permissions who want to install ProSheets in one computer.
+This method is ideal for individuals with admin permissions who want to install ProSheets on one computer.
 ```
 
 1. Run ProSheets installer.
@@ -50,7 +50,7 @@ This method is ideal for individuals with admin permissions who want to install 
 
 ![ProSheets Installation First Step](../assets\images\PS-Install.gif)
 
-3 . Wait for the installation to complete and click 'Finish'.
+3. Wait for the installation to complete and click 'Finish'.
 
 ![ProSheets Installation Finish](../assets\images\PS-Complete.png)
 
@@ -69,17 +69,17 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
-- Disable automatic check for update (i.e., users won't be prompt to install updates).
+- Disable automatic check for update (i.e., users won’t be prompted to install updates).
 
 ```yaml
-# In this example ProSheets will be installed without the updater.
+# In this example, ProSheets will be installed with the automatic update feature turned off.
 <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
 ```
 
 - Exclude specific Revit versions.
 
 ```yaml
-# In this example ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
+# In this example, ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
 <installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
 ```
 
@@ -87,7 +87,7 @@ This method is ideal for IT administrators who want to deploy ProSheets to multi
 Warning: You will only be able to export to PDF using the native Revit PDF exporter, which is available only in Revit 2022 or newer and requires a [ProSheets Premium license](https://diroots.com/revit-plugins/quote-request/).
 
 ```yaml
-# In this example ProSheets will be installed without PDF24
+# In this example, ProSheets will be installed without PDF24
 <installer-name>.exe /i // /qn accept_eula=1 INSTALL_PDF24=""
 ```
 
