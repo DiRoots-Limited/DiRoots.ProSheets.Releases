@@ -18,7 +18,7 @@ nav_order: 3
 
 ## User Interface Overview
 
-![ProSheets Revit Export Tab](../../assets\images\GIFs\Export\PS-Overview.png)  
+![ProSheets Revit Export Tab](../../assets\images\GIFs\Export\PS-Overview-240.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## Export Location
