@@ -23,29 +23,69 @@ nav_order: 3
 
 ## Export Location
 
-ProSheets allows you to set an export path. The export path can be in your local computer or in a network location (i.e.: a path to a folder on a shared network drive).  
-This path is the will be used to save the files outputed by ProSheets.
+ProSheets allows you to export files locally, to Autodesk Forma, or to both destinations in the same export job.
 
-### Save all files in the same folder location
+Use the checkboxes under "Export Rules" to select "Local", "Forma", or both. Select the corresponding tab to configure each export location.
 
-By selecting the option 'Save all files in the same folder location', ProSheets will create all files, regardless of the file format, in the same folder.
+### Local
 
-```yaml
-'Saving all files in the same folder location' is the default option. 
-```
+Use "Local" to export files to a folder on your computer or to a shared network drive.
 
-### Save and split files by file format
+Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection" field to enter the export path, or click on the three dots (...) to select a folder.
 
-By selecting the option 'Save and split files by file format', ProSheets will create subfolder to organize the files by file format (e.g., PDF, DWG, IFC, etc.).
+### Forma
+
+ProSheets allows you to export files directly to Autodesk Forma Document Management. Select the option "Forma" to choose a folder from your Forma account as the export location.
+
+#### Authentication
+
+Before using Forma, a Hub Administrator must add the DiRoots Connector to the required Hub. To do this, open "Apps" in "Account Administration", select "DiRoots Connector" from "Featured Apps", click on "Add to Build", and then click on "Authorize".
+
+#### Login to Forma
+
+Steps:
+
+1. Select the "Forma" checkbox and open the "Forma" tab.
+2. Click on "Login to Forma" and log in with your Autodesk account in the browser window.
+3. Return to ProSheets.
+
+After logging in, ProSheets will display the Forma Hubs and Projects available to your Autodesk account.
+
+If a Hub is not available, contact your Hub Administrator to confirm that the DiRoots Connector has been added and that you have access to the Hub.
+
+#### Folder selection
+
+After logging in, select the Hub, Project, and folder where the exported files will be saved.
+
+Steps:
+
+1. Select a Hub from the dropdown list.
+2. Select a Project from the dropdown list.
+3. Click on the three dots (...) next to the folder path to open the Forma Explorer.
+4. Browse the Autodesk Docs folder structure and select the destination folder.
+
+The Forma Explorer allows you to expand and collapse folders and displays information such as name, version, last updated date, updated by, and description.
+
+After selecting a folder, the Forma path will be displayed in the Create tab.
+
+When the export starts, ProSheets creates a new file in the selected folder. If a file with the same name already exists, ProSheets creates a new version.
+
+### Folder organization
+
+Use the radio buttons to choose how ProSheets organizes the exported files.
+
+- "Save all files in the same folder location" - saves all exported files in the selected folder.
+- "Save and split files by file format" - creates a subfolder for each exported file format.
 
 ![ProSheets Revit Save and split files by file format](../../assets/images/PS-split-files-by-format.png)  
 
 ### Environment variables
 
-ProSheets allows you to use environment variables to set up the export path.
+ProSheets allows you to use environment variables in the "Folder Selection" path for Local and Forma exports.
 
 #### Supported environment variables:
-- %UserName% - current windows username
+
+- %UserName% - current Windows username
 - %Y - the current year (e.g., 2024)
 - %YY - the current year (e.g., 24)
 - %YYYY - the current year (e.g., 2024)
@@ -62,7 +102,7 @@ ProSheets allows you to use environment variables to set up the export path.
 - %DrawingName% - the filename
 - %IssueDate% - the Sheet Issue Date builtin parameter
 
-Pratical Example.  
+Local export example:
 
 Input:  
 
@@ -72,9 +112,23 @@ Output:
 
 ![ProSheets Revit path with environment variables](../../assets/images/PS-path-environment-variables.png)
 
-#### Organize folders
+### Generate Export Report
 
-You can also select the radio buttons to save all files in the same folder location or split files by file format.
+Use the report dropdown to choose whether ProSheets generates a report after the export. The report can be generated in .XLSX (Excel spreadsheet) or .CSV (comma-separated values).
+
+The same report option applies to Local and Forma exports.
+
+![ProSheets Revit Export Report to Excel or CSV](../../assets\images\GIFs\Export\PS-SaveReport.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+Information included in the report:
+- List of the files that were created (filename, file format, location path, export time, status)
+- Total export time and date of the export job
+
+For Forma exports, the report also includes the selected Forma path.
+
+Example:
+![ProSheets Revit Export Report in Excel](../../assets/images/PS-Revit-Excel-Report.png)  
 
 ## Paper Size and Orientation
 
@@ -101,20 +155,6 @@ Also use the right-click to "Open Sheet/View" and to "Remove Sheet/View from Que
 
 ![ProSheets Open View](../../assets\images\GIFs\Export\PS-OpenViewSheet.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
-## Generate Export Report
-
-ProSheets also allows you to generate export reports. The report can be generated in .XLSX (a.k.a Excel spreadsheet) or .CSV (comma-separated values).  
-
-![ProSheets Revit Export Report to Excel or CSV](../../assets\images\GIFs\Export\PS-SaveReport.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
-Information included in the report:
-- List of the files that were created (filename, file format, location path, export time, status)
-- Total export time and date of the export job
-
-Example:
-![ProSheets Revit Export Report in Excel](../../assets/images/PS-Revit-Excel-Report.png)  
 
 ---
 
