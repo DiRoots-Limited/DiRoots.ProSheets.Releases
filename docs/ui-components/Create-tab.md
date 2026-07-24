@@ -130,6 +130,38 @@ For Forma exports, the report also includes the selected Forma path.
 Example:
 ![ProSheets Revit Export Report in Excel](../../assets/images/PS-Revit-Excel-Report.png)  
 
+## Manage the export queue
+
+Use the search and filters in the Create tab to find rows in the export table without changing what ProSheets exports.
+
+### Search
+
+Enter part of a sheet or view number or name in the search field. ProSheets displays rows with matching values in the "View/Sheet Number" or "View/Sheet Name" columns.
+
+### Filter views, sheets, and formats
+
+Use the Views/Sheets (V/S) filter in the column header to display rows by item type:
+
+- "All Views/Sheets": Displays both sheets and views.
+- "Sheets": Displays only sheets.
+- "Views": Displays only views.
+
+Use the format filter to display rows for one file format. The dropdown includes only the formats selected in the Format tab. Select "All Formats" to clear the format filter.
+
+You can combine the search, Views/Sheets, and format filters. Items hidden by the search or filters remain in the export queue and are still exported.
+
+![ProSheets filter views, sheets, and file formats](../../assets/images/GIFs/Export/PS-Create-Tab-Filters.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+### Exclude and restore export items
+
+To exclude items from the export, select one or more rows, right-click the selection, and select "Remove item(s) from queue". Removed items are not exported.
+
+"Show Excluded Items" is a Premium feature. Select it to display excluded items at 50% opacity. To add excluded items back to the export queue, select them, right-click the selection, and select "Restore item(s) to queue". Restored items are included in the export again.
+
+![ProSheets show and restore excluded export items](../../assets/images/GIFs/Export/PS-Show-Excluded-Items.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
 ## Paper Size and Orientation
 
 By default ProSheets automically detects the paper size and orientation of your sheets. The auto-detection feature runs automically and it is based on the Title Block dimensions (the built-in parameters Sheet Width and Sheet Heigh).
@@ -148,10 +180,7 @@ Steps:
 ![ProSheets Revit Paper Size and Orientation Manually Set](../../assets\images\GIFs\Export\PS-SetPaperSizeOrientation.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-```yaml
-#Note:
-Also use the right-click to "Open Sheet/View" and to "Remove Sheet/View from Queue".
-```
+> Note: Right-click a row and select "Open Sheet" or "Open View" to open it in Revit.
 
 ![ProSheets Open View](../../assets\images\GIFs\Export\PS-OpenViewSheet.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
