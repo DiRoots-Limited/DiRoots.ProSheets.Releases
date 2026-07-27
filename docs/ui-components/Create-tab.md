@@ -31,15 +31,26 @@ Use the checkboxes under "Export Rules" to select "Local", "Forma", or both. Sel
 
 Use "Local" to export files to a folder on your computer or to a shared network drive.
 
-Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection" field to enter the export path, or click on the three dots (...) to select a folder.
+Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection" field to enter the export path, or click the ellipsis button (...) to select a folder.
 
 ### Forma
 
-ProSheets allows you to export files directly to Autodesk Forma Document Management. Select the option "Forma" to choose a folder from your Forma account as the export location.
+ProSheets allows you to export files directly to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
 
-#### Authentication
+#### Authorize the DiRoots Connector
 
-Before using Forma, a Hub Administrator must add the DiRoots Connector to the required Hub. To do this, open "Apps" in "Account Administration", select "DiRoots Connector" from "Featured Apps", click on "Add to Build", and then click on "Authorize".
+Before ProSheets users can export files to an Autodesk Forma Hub, a Hub Administrator must add and authorize the DiRoots Connector for that Hub.
+
+Steps for Hub Administrators:
+
+1. Sign in to Autodesk Forma and open "Account Admin" for the required Hub.
+2. Open "Apps".
+3. Select the "Featured Apps" tab.
+4. Select "DiRoots Connector".
+5. Click on "Add to Build".
+6. Click on "Authorize".
+
+After the connector is authorized, ProSheets users can log in to Forma and access the Hubs, Projects, and folders permitted by their Autodesk account.
 
 #### Login to Forma
 
@@ -61,14 +72,14 @@ Steps:
 
 1. Select a Hub from the dropdown list.
 2. Select a Project from the dropdown list.
-3. Click on the three dots (...) next to the folder path to open the Forma Explorer.
+3. Click the ellipsis button (...) next to the folder path to open the Forma Explorer.
 4. Browse the Autodesk Docs folder structure and select the destination folder.
 
 The Forma Explorer allows you to expand and collapse folders and displays information such as name, version, last updated date, updated by, and description.
 
 After selecting a folder, the Forma path will be displayed in the Create tab.
 
-When the export starts, ProSheets creates a new file in the selected folder. If a file with the same name already exists, ProSheets creates a new version.
+When the export starts, ProSheets creates a new file in the selected folder. If a file with the same name already exists, ProSheets uploads the exported file as a new version of the existing file.
 
 ### Folder organization
 
@@ -157,7 +168,7 @@ You can combine the search, Views/Sheets, and format filters. Items hidden by th
 
 To exclude items from the export, select one or more rows, right-click the selection, and select "Remove item(s) from queue". Removed items are not exported.
 
-"Show Excluded Items" is a Premium feature. Select it to display excluded items at 50% opacity. To add excluded items back to the export queue, select them, right-click the selection, and select "Restore item(s) to queue". Restored items are included in the export again.
+"Show Excluded Items" is a Premium feature. When selected, the excluded items are shown in halftone. To add them back to the export queue, select them, right-click the selection, and select "Restore item(s) to queue". Restored items are included in the export again.
 
 ![ProSheets show and restore excluded export items](../../assets/images/GIFs/Export/PS-Show-Excluded-Items.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
