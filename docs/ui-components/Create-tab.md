@@ -85,6 +85,9 @@ After selecting a folder, the Forma path will be displayed in the Create tab.
 
 When the export starts, ProSheets creates a new file in the selected folder. If a file with the same name already exists, ProSheets uploads the exported file as a new version of the existing file.
 
+![ProSheets export files to Autodesk Forma](../../assets/images/GIFs/Export/PS-Forma-Export.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
 ### Folder organization
 
 Use the radio buttons to choose how ProSheets organizes the exported files.
