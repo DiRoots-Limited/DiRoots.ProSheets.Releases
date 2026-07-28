@@ -37,20 +37,24 @@ Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection"
 
 ProSheets allows you to export files directly to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
 
-#### Authorize the DiRoots Connector
+#### Install and authorize the DiRoots Connector
 
-Before ProSheets users can export files to an Autodesk Forma Hub, a Hub Administrator must add and authorize the DiRoots Connector for that Hub.
+Before ProSheets users can export files to an Autodesk Forma Hub (previously called an account), a Hub Administrator must install and authorize the DiRoots Connector for that Hub.
 
 Steps for Hub Administrators:
 
-1. Sign in to Autodesk Forma and open "Account Admin" for the required Hub.
+1. Sign in to Autodesk Forma and open "Hub Admin" for the required Hub.
 2. Open "Apps".
-3. Select the "Featured Apps" tab.
-4. Select "DiRoots Connector".
-5. Click on "Add to Build".
-6. Click on "Authorize".
+3. Select "DiRoots Connector for Autodesk Forma" from the App Gallery.
+4. Click "Install".
+5. Review the requested permissions, then click "Authorize and Install".
 
-After the connector is authorized, ProSheets users can log in to Forma and access the Hubs, Projects, and folders permitted by their Autodesk account.
+Install the connector separately for each Hub where ProSheets will be used. ProSheets users can then follow the steps below to log in to Forma.
+
+```yaml
+#Note:
+Autodesk previously used the terms "account" and "Account Admin" for "Hub" and "Hub Admin"
+```
 
 #### Login to Forma
 
@@ -191,7 +195,10 @@ Steps:
 ![ProSheets Revit Paper Size and Orientation Manually Set](../../assets\images\GIFs\Export\PS-SetPaperSizeOrientation.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-> Note: Right-click a row and select "Open Sheet" or "Open View" to open it in Revit.
+```yaml
+#Note:
+Right-click a row and select "Open Sheet" or "Open View" to open it in Revit.
+```
 
 ![ProSheets Open View](../../assets\images\GIFs\Export\PS-OpenViewSheet.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
