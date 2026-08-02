@@ -35,7 +35,7 @@ Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection"
 
 ### Forma
 
-ProSheets can automatically upload generated export files to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
+ProSheets can export files to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
 
 #### Install and authorize the DiRoots Connector
 
@@ -45,12 +45,9 @@ Steps for Hub Administrators:
 
 1. Sign in to Autodesk Forma and open "Hub Admin" for the required Hub.
 2. Open "Apps".
-3. Select the "Featured Apps" tab.
-4. Select "DiRoots Connector".
-5. Click "Add to Build".
-6. Click "Authorize".
-
-For more information, see Autodesk's [App Gallery documentation](https://help.autodesk.com/cloudhelp/ENG/Docs-Admin/files/hub-administration/ACCOUNT_ADMINISTRATION_APP_Gallery.html).
+3. Select "DiRoots Connector for Autodesk Forma" from the App Gallery.
+4. Click "Install".
+5. Review the requested permissions, then click "Authorize and Install".
 
 Install the connector separately for each Hub where ProSheets will be used. ProSheets users can then follow the steps below to log in to Forma.
 
@@ -86,7 +83,7 @@ The Forma Explorer allows you to expand and collapse folders and displays inform
 
 After selecting a folder, the Forma path will be displayed in the Create tab.
 
-After ProSheets generates each export, it uploads the file to the selected Forma folder. If a file with the same name already exists, the upload creates a new version of the existing file instead of creating a duplicate.
+After ProSheets generates each export, it uploads the file to the selected Forma folder. If a file with the same name already exists, the upload creates a new version of the existing file.
 
 ![ProSheets export files to Autodesk Forma](../../assets/images/GIFs/Export/PS-Forma-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -102,7 +99,7 @@ Use the radio buttons to choose how ProSheets organizes the exported files.
 
 ### Environment variables
 
-ProSheets allows you to use environment variables in the Local "Folder Selection" path.
+You can use environment variables to build the saving path.
 
 #### Supported environment variables:
 
@@ -171,7 +168,7 @@ Use the format filter to display rows for one file format. The dropdown includes
 
 You can combine the search, Views/Sheets, and format filters.
 
-> **Important:** Filters only change which rows are displayed. Hidden items remain in the export queue and will still be exported. To prevent an item from being exported, remove it from the queue.
+> **Important:** Filters only change which rows are displayed. Hidden items remain in the export queue and will still be exported. To stop an item from being exported, remove it from the queue.
 
 ![ProSheets filter views, sheets, and file formats](../../assets/images/GIFs/Export/PS-Create-Tab-Filters.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
