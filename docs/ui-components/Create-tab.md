@@ -49,6 +49,8 @@ Steps for Hub Administrators:
 4. Click "Install".
 5. Review the requested permissions, then click "Authorize and Install".
 
+![ProSheets Hub Administrator installing the DiRoots Connector for Autodesk Forma](../../assets/images/GIFs/Export/PS-Forma-Hub-Admin-Install-Connector.gif)  
+
 Install the connector separately for each Hub where ProSheets will be used. ProSheets users can then follow the steps below to log in to Forma.
 
 ```yaml
