@@ -221,7 +221,7 @@ Note that for automatic printing to take occur with this tool active, the projec
 
 ### Schedule Publish
 
-To activate this function, click on the “Schedule Assistan” button to activate the automatic printing settings.
+To activate this function, click on the “Schedule Assistant” button to activate the automatic printing settings.
 
 1. Click on the first dropdown list to "Choose Starting Date".
 2. Next, "Choose Time".
