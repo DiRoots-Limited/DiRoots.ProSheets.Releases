@@ -25,7 +25,7 @@ nav_order: 3
 
 ProSheets allows you to export files locally, to Autodesk Forma, or to both destinations in the same export job.
 
-Use the checkboxes under "Export Rules" to select "Local", "Forma", or both. Select the corresponding tab to configure each export location.
+Use the checkboxes under "Export Rules" to select "Local", "Forma", or both. Select the corresponding tab to configure each export location. When both options are selected, ProSheets saves the generated files to the configured local folder and uploads them to the selected Forma folder in the same export job.
 
 ### Local
 
@@ -35,7 +35,7 @@ Select the "Local" checkbox and open the "Local" tab. Use the "Folder Selection"
 
 ### Forma
 
-ProSheets allows you to export files directly to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
+ProSheets can export files to Autodesk Forma Document Management. Select the option "Forma" and choose a Hub, Project, and folder from your Forma account as the export location.
 
 #### Install and authorize the DiRoots Connector
 
@@ -83,7 +83,7 @@ The Forma Explorer allows you to expand and collapse folders and displays inform
 
 After selecting a folder, the Forma path will be displayed in the Create tab.
 
-When the export starts, ProSheets creates a new file in the selected folder. If a file with the same name already exists, ProSheets uploads the exported file as a new version of the existing file.
+After ProSheets generates each export, it uploads the file to the selected Forma folder. If a file with the same name already exists, the upload creates a new version of the existing file.
 
 ![ProSheets export files to Autodesk Forma](../../assets/images/GIFs/Export/PS-Forma-Export.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -99,7 +99,7 @@ Use the radio buttons to choose how ProSheets organizes the exported files.
 
 ### Environment variables
 
-ProSheets allows you to use environment variables in the "Folder Selection" path for Local and Forma exports.
+You can use environment variables to build the saving path.
 
 #### Supported environment variables:
 
@@ -166,7 +166,9 @@ Use the Views/Sheets (V/S) filter in the column header to display rows by item t
 
 Use the format filter to display rows for one file format. The dropdown includes only the formats selected in the Format tab. Select "All Formats" to clear the format filter.
 
-You can combine the search, Views/Sheets, and format filters. Items hidden by the search or filters remain in the export queue and are still exported.
+You can combine the search, Views/Sheets, and format filters.
+
+> **Important:** Filters only change which rows are displayed. Hidden items remain in the export queue and will still be exported. To stop an item from being exported, remove it from the queue.
 
 ![ProSheets filter views, sheets, and file formats](../../assets/images/GIFs/Export/PS-Create-Tab-Filters.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
