@@ -14,7 +14,7 @@ ProSheets is an Autodesk Revit add-in to batch export views and sheets to PDF, D
 - Generate reports for each export (XLSX and CSV).
 - Use environment variables (e.g., to create a subfolder with the current date).
 - Create subfolders by file format.
-- Combine different paper sizes and orientation into one PDF document
+- Combine different paper sizes and orientations into one PDF document.
 - Order the drawings when combining them into a single PDF document.
 - [Premium]* Schedule Exports.
 - [Premium]* Bind images when exporting DWG files (images can be embedded as OLE objects instead of external references).
