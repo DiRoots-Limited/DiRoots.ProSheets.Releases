@@ -4,7 +4,7 @@
 ProSheets 是一款 Autodesk Revit 插件，可将视图和图纸批量导出为 PDF、DWG、DGN、DWF、NWC、IFC 和图像（JPEG、PNG、TIFF 等）。
 
 ### 主要功能
-- 将 Revit 导出为 PDF、DWG、DGN、DWF、NWC、IFC 和图像。
+- 从 Revit 导出为 PDF、DWG、DGN、DWF、NWC、IFC 和图像。
 - 使用由 Revit 参数或自定义参数组成的自定义文件名导出（例如：图纸名称-图纸编号.pdf）。
 - 将自定义文件名和导出设置保存到配置文件中。
 - 自动检测纸张尺寸。

@@ -4,7 +4,7 @@
 ProSheets 是一款 Autodesk Revit 外掛程式，可將視圖和圖紙批次匯出為 PDF、DWG、DGN、DWF、NWC、IFC 和影像（JPEG、PNG、TIFF 等）。
 
 ### 主要功能
-- 將 Revit 匯出為 PDF、DWG、DGN、DWF、NWC、IFC 和影像。
+- 從 Revit 匯出為 PDF、DWG、DGN、DWF、NWC、IFC 和影像。
 - 使用由 Revit 參數或自訂參數組成的自訂檔案名稱匯出（例如：圖紙名稱-圖紙編號.pdf）。
 - 將自訂檔案名稱和匯出設定儲存至設定檔。
 - 自動偵測紙張尺寸。
