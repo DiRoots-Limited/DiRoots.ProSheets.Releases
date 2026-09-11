@@ -1,6 +1,6 @@
 <!-- SHORT_DESCRIPTION_START -->
 Revit to PDF, DWG, DGN, DWF, NWC, IFC, and Images. 
- <!-- SHORT_DESCRIPTION_END -->
+<!-- SHORT_DESCRIPTION_END -->
 ProSheets is a plugin for Autodesk Revit Add-in to batch export Views and Sheets to PDF, DWG, DGN, DWF, NWC, IFC, and Images (JPEG, PNG, TIFF, etc).
 
 ### Main features
