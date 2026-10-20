@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Tables
-parent: UI Components
+parent: ProSheets
 nav_order: 4
+nav_exclude: true
 ---
 
 # Tables

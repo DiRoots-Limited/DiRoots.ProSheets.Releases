@@ -1,8 +1,21 @@
 ---
 layout: default
 title: Formats Tab
-parent: User Guide
+parent: ProSheets
 nav_order: 2
+nav_sections:
+  - title: "Supported File Formats"
+    anchor: supported-file-formats
+  - title: "PDF Settings"
+    anchor: pdf-settings
+  - title: "DWG Settings"
+    anchor: dwg-settings
+  - title: "DGN Settings"
+    anchor: dgn-settings
+  - title: "DWF Settings"
+    anchor: dwf-settings
+  - title: "XML Settings"
+    anchor: xml-settings
 ---
 
 # Formats Tab

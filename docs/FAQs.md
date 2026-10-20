@@ -1,7 +1,22 @@
 ---
 layout: default
 title: FAQs
-nav_order: 99
+nav_order: 98
+nav_sections:
+  - title: "Does ProSheets requires PDF24?"
+    anchor: does-prosheets-requires-pdf24
+  - title: "Can I select another PDF printer?"
+    anchor: can-i-select-another-pdf-printer
+  - title: "What is the printer called diroots.prosheets that I got after installing ProSheets?"
+    anchor: what-is-the-printer-called-dirootsprosheets-that-i-got-after-installing-prosheets
+  - title: "Why I can’t see the PDFs being created in the output location?"
+    anchor: why-i-cant-see-the-pdfs-being-created-in-the-output-location
+  - title: "Why I ProSheets tells me that my printer is in an error state?"
+    anchor: why-i-prosheets-tells-me-that-my-printer-is-in-an-error-state
+  - title: "Printer Permission Issue in ProSheets (Failed to access print parameters)"
+    anchor: printer-permission-issue-in-prosheets-failed-to-access-print-parameters
+  - title: "Why does ProSheets show “No Internet Connection”?"
+    anchor: why-does-prosheets-show-no-internet-connection
 ---
 
 # Frequently Asked Questions about ProSheets

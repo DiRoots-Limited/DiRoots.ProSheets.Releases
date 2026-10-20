@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ukrainian | Video Tutorials
+title: ProSheets | Ukrainian
 parent: Video Tutorials
 nav_order: 1
 ---

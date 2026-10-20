@@ -1,8 +1,19 @@
 ---
 layout: default
 title: Create Tab
-parent: User Guide
+parent: ProSheets
 nav_order: 3
+nav_sections:
+  - title: "User Interface Overview"
+    anchor: user-interface-overview
+  - title: "Export Location"
+    anchor: export-location
+  - title: "Manage the export queue"
+    anchor: manage-the-export-queue
+  - title: "Paper Size and Orientation"
+    anchor: paper-size-and-orientation
+  - title: "Scheduling Assistant"
+    anchor: scheduling-assistant
 ---
 
 # Export Tab
