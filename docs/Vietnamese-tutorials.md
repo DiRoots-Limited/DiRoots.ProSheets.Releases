@@ -5,7 +5,7 @@ parent: Video Tutorials
 nav_order: 5
 ---
 
-# ProSheets tutorials and demo videos in Portuguese.
+# ProSheets tutorials and demo videos in Vietnamese.
 If you have created content about ProSheets and you want to see it featured here, drop us an email at info@diroots.com
 {: .no_toc }
 

@@ -16,7 +16,7 @@ nav_sections:
     anchor: scheduling-assistant
 ---
 
-# Export Tab
+# Create Tab
 {: .no_toc }
 
 ## Table of contents
