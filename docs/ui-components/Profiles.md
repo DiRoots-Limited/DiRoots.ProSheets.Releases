@@ -1,8 +1,19 @@
 ---
 layout: default
 title: Profiles
-parent: User Guide
+parent: ProSheets
 nav_order: 4
+nav_sections:
+  - title: "What’s saved in the profile"
+    anchor: whats-saved-in-the-profile
+  - title: "Creating Profiles"
+    anchor: creating-profiles
+  - title: "Use the profile as default"
+    anchor: use-the-profile-as-default
+  - title: "Importing Profiles"
+    anchor: importing-profiles
+  - title: "Deleting Profiles"
+    anchor: deleting-profiles
 ---
 
 # Profiles

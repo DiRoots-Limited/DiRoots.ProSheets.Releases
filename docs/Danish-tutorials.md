@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Danish | Video Tutorials
+title: ProSheets | Danish
 parent: Video Tutorials
 nav_order: 4
 ---

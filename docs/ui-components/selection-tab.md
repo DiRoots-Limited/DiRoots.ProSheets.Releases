@@ -1,9 +1,20 @@
 ---
 layout: default
 title: Selection Tab
-parent: User Guide
+parent: ProSheets
 nav_order: 1
+nav_sections:
+  - title: "Select Sheets and Views or View/Sheet Sets"
+    anchor: select-sheets-and-views-or-viewsheet-sets
+  - title: "Custom File Name"
+    anchor: custom-file-name
+  - title: "Clear selection"
+    anchor: clear-selection
+  - title: "Advanced Settings"
+    anchor: advanced-settings
 ---
+
+<span id="prosheets"></span>
 
 # Selection Tab
 {: .no_toc }

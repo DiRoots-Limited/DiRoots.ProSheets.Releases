@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portuguese | Video Tutorials
+title: ProSheets | Portuguese
 parent: Video Tutorials
 nav_order: 2
 ---

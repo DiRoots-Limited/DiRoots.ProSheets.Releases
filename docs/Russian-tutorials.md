@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Russian | Video Tutorials
+title: ProSheets | Russian
 parent: Video Tutorials
 nav_order: 6
 ---

@@ -1,7 +1,20 @@
 ---
 layout: default
 title: ProSheets Tips
-nav_order: 3
+nav_order: 99
+nav_sections:
+  - title: "Collapse and Expand window"
+    anchor: collapse-and-expand-window
+  - title: "Resize Window"
+    anchor: resize-window
+  - title: "Select multiple rows"
+    anchor: select-multiple-rows
+  - title: "Double-click and Drag and Drop"
+    anchor: double-click-and-drag-and-drop
+  - title: "Right-click on the column header"
+    anchor: right-click-on-the-column-header
+  - title: "Right-click on the row"
+    anchor: right-click-on-the-row
 ---
 
 # How to use it
