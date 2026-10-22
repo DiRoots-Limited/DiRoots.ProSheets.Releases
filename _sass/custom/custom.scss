@@ -40,8 +40,8 @@
 /* Compact, tinted callouts inspired by Mintlify's documentation callouts. */
 p.note,
 blockquote.note,
-p.new,
-blockquote.new,
+p.tip,
+blockquote.tip,
 p.warning,
 blockquote.warning,
 p.important,
@@ -65,8 +65,8 @@ blockquote.note {
   border-color: #bfdbfe;
 }
 
-p.new,
-blockquote.new {
+p.tip,
+blockquote.tip {
   color: #166534;
   background-color: #f0fdf4;
   border-color: #bbf7d0;
@@ -88,8 +88,8 @@ blockquote.important {
 
 p.note::before,
 blockquote.note::before,
-p.new::before,
-blockquote.new::before,
+p.tip::before,
+blockquote.tip::before,
 p.warning::before,
 blockquote.warning::before,
 p.important::before,
@@ -111,8 +111,8 @@ blockquote.note::before {
   content: "ⓘ";
 }
 
-p.new::before,
-blockquote.new::before {
+p.tip::before,
+blockquote.tip::before {
   content: "";
   width: 1rem;
   height: 1rem;

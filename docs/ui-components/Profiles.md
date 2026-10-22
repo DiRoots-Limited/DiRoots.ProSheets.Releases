@@ -46,8 +46,8 @@ Steps:
 ![ProSheets Creating profiles](../../assets/images/GIFs/Profiles/PS-Create-Profiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-> **Tip for BIM managers:** Save profiles in a shared network location so other users can import them. See [Importing Profiles](#importing-profiles) for the steps.
-{: .new }
+**Tip for BIM managers:** Save profiles in a shared network location so other users can import them. See [Importing Profiles](#importing-profiles) for the steps.
+{: .tip }
 
 ## Use the profile as default
 
