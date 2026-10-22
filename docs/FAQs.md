@@ -21,19 +21,16 @@ nav_sections:
 
 # Frequently Asked Questions about ProSheets
 
-This section aims to answer the our users' frequently asked questions.
+This section answers common questions about ProSheets.
 
-## Does ProSheets requires PDF24?
+## Does ProSheets require PDF24?
 
-Yes. The correct version of PDF24 will be automatically installed alongside ProSheets.
-
-```
-Uninstalling PDF24 will lead ProSheets to stop working.
-```
+PDF24 is installed with ProSheets for the standard PDF export workflow. It is optional if you use the native Revit PDF exporter, which requires Revit 2022 or newer and a ProSheets Premium license.
+{: .note }
 
 ## Can I select another PDF printer?
 
-No. ProSheets works only with PDF24.
+ProSheets supports its PDF24 printer and, with a Premium license in Revit 2022 or newer, the native Revit PDF exporter.
 
 ## What is the printer called diroots.prosheets that I got after installing ProSheets?
 

@@ -12,6 +12,7 @@ nav_sections:
 # Getting Started
 {: .no_toc }
 
+Use this guide to install, update, and uninstall ProSheets.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -30,24 +31,19 @@ Download the [latest version of ProSheets](https://diroots.com/revit-plugins/rev
 ## Install
 
 ### Compatibility
-- Windows 7, 8, 10 and 11.
-- Revit 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+- Revit 2018–2027.
+- Use a Windows version supported by your Revit release. See [Autodesk's system requirements](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Revit-products.html).
 
 ### Prerequisites
 - Admin permissions.
 - PDF24 (the compatible version will be installed automatically. Don’t install it manually).
 
-```yaml
-# Remarks
-- The installation is done per-machine.
-- %ProgramData%\Autodesk\Revit\Addins\
-```
+ProSheets is installed for all users on the machine. Its add-in files are stored in `%ProgramData%\Autodesk\Revit\Addins\`.
+{: .note }
 
 ### Standard Installation
 
-```yaml
-This method is ideal for individuals with admin permissions who want to install ProSheets on one computer.
-```
+This method is intended for users with administrator permissions who want to install ProSheets on one computer.
 
 1. Run ProSheets installer.
 
@@ -59,42 +55,36 @@ This method is ideal for individuals with admin permissions who want to install 
 
    ![ProSheets Installation Finish](../assets\images\PS-Complete.png)
 
-4. Restart your computer. Don't Skip this step.
+4. Restart your computer to complete the installation.
 
 ### Silent Installation
 
-```yaml
-This method is ideal for IT administrators who want to deploy ProSheets to multiple computers.
-```
+This method is intended for IT administrators who want to deploy ProSheets to multiple computers.
 
 - Install for all compatible Revit versions.
 
-```yaml
-# This method will silently install ProSheets for all compatible Revit versions.
-<installer-name>.exe /i // /qn accept_eula=1
-```
+  ```cmd
+  <installer-name>.exe /i // /qn accept_eula=1
+  ```
 
 - Disable automatic check for update (i.e., users won’t be prompted to install updates).
 
-```yaml
-# In this example, ProSheets will be installed with the automatic update feature turned off.
-<installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
-```
+  ```cmd
+  <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
+  ```
 
 - Exclude specific Revit versions.
 
-```yaml
-# In this example, ProSheets will NOT be installed for Revit 2017, 2018, and 2019.
-<installer-name>.exe /i // /qn accept_eula=1 revit2017="" revit2018="" revit2019=""
-```
+  ```cmd
+  <installer-name>.exe /i // /qn accept_eula=1 revit2018="" revit2019=""
+  ```
 
-- Skip PDF24 install. 
-Warning: You will only be able to export to PDF using the native Revit PDF exporter, which is available only in Revit 2022 or newer and requires a [ProSheets Premium license](https://diroots.com/revit-plugins/quote-request/).
+- Skip PDF24 installation. You can export PDFs without PDF24 by using the native Revit PDF exporter in Revit 2022 or newer with a [ProSheets Premium license](https://diroots.com/revit-plugins/quote-request/).
+  {: .warning }
 
-```yaml
-# In this example, ProSheets will be installed without PDF24
-<installer-name>.exe /i // /qn accept_eula=1 INSTALL_PDF24=""
-```
+  ```cmd
+  <installer-name>.exe /i // /qn accept_eula=1 INSTALL_PDF24=""
+  ```
 
 ## Uninstall
 
@@ -104,21 +94,18 @@ Warning: You will only be able to export to PDF using the native Revit PDF expor
 
 2. Select and click 'Remove'.
 
-![ProSheets Uninstall](../assets\images\PS-Remove.gif)
+   ![ProSheets Uninstall](../assets\images\PS-Remove.gif)
 
-3 . Wait for the uninstallation to complete and click 'Finish'.
+3. Wait for the uninstallation to complete, then click 'Finish'.
 
-```yaml
-# Remarks.
-PDF24 shipped with ProSheets won't be uninstalled. If you want to remove it, uninstall it manually.
-```
+PDF24 is not removed when you uninstall ProSheets. Uninstall PDF24 separately if you no longer need it.
+{: .note }
 
 ### Using the installer silently
 
 Uninstall ProSheets without user interaction.
 
-```yaml
-# This method will remove ProSheets from your computer.
+```cmd
 <installer-name>.exe /x // /qn
 ```
 
@@ -141,29 +128,15 @@ The updater will:
 
 ### Updater Settings
 
-The following Update Options can be tweaked:
-- activate automatic updates.
-- check for updates frequency (the default value is 2 days). 
-- change the downloads folder.
+The updater checks for updates every two days by default. You can change the frequency and download folder.
 
-```yaml
-# Pro Tip for Users
-By default the automatic updates can't be disabled.
-To go around it, you can set up the check for updates frequency to 365 days, for example.
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+By default, update checks cannot be disabled in the updater settings. To check less often, set the frequency to 365 days.
+{: .new }
 
-```yaml
-# Pro Tip for IT Administrators
-By default the automatic updates can't be disabled.
-To go around it, there's a configuration file that can be tweaked.
+**Pro Tip for IT administrators:** To change how often ProSheets checks for updates across the machine, edit `%ProgramData%\DiRoots.ProSheets\Settings\updater.ini` and change `CheckFrequency=2` to `CheckFrequency=365`.
+{: .new }
 
-# Steps required
-- go to %programdata%\DiRoots.ProSheets\Settings
-- open the 'updater.ini' file
-- Search for the line 'CheckFrequency=2' and change the value to 365, for example.
-
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+We recommend keeping ProSheets up to date. Support is not provided for outdated versions.
+{: .important }
 
 <button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
