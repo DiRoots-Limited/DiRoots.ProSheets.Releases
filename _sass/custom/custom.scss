@@ -130,3 +130,15 @@ p.important::before,
 blockquote.important::before {
   content: "!";
 }
+
+/* Keep long commands readable on narrow screens; allow horizontal scrolling. */
+.highlighter-rouge {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.highlighter-rouge pre {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+}

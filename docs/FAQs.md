@@ -3,8 +3,8 @@ layout: default
 title: FAQs
 nav_order: 98
 nav_sections:
-  - title: "Does ProSheets requires PDF24?"
-    anchor: does-prosheets-requires-pdf24
+  - title: "Does ProSheets require PDF24?"
+    anchor: does-prosheets-require-pdf24
   - title: "Can I select another PDF printer?"
     anchor: can-i-select-another-pdf-printer
   - title: "What is the printer called diroots.prosheets that I got after installing ProSheets?"
