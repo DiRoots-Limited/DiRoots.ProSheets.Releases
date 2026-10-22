@@ -66,12 +66,12 @@ Steps:
 
 2. Use the dropdown to switch between the existing DWG setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.
 
-   To create an export group, open **DWG Export** and select **Modify Export Setup** in the **Select Export Setup** group.
-   {: .note }
-
 3. Select the checkbox to "Export views on sheets and links as external references".
 
 4. Use the checkbox to "Bind Images as OLE in DWG File" (premium feature).
+
+To create an export group, open **DWG Export** and select **Modify Export Setup** in the **Select Export Setup** group.
+{: .note }
 
 This feature requires AutoCAD 2019 or later.
 {: .note }
