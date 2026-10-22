@@ -144,7 +144,7 @@ Set some advanced settings as defaults for your prints, using the radio button t
 4. Reveal Constraints
 
    - Turn off the Reveal Constraints mode before printing
-   - Leave the Reveal Constrains mode on and print
+   - Leave the Reveal Constraints mode on and print
 
    ![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
