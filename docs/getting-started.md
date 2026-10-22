@@ -53,11 +53,11 @@ This method is ideal for individuals with admin permissions who want to install 
 
 2. Select the Revit versions and click 'Install'.
 
-![ProSheets Installation First Step](../assets\images\PS-Install.gif)
+   ![ProSheets Installation First Step](../assets\images\PS-Install.gif)
 
 3. Wait for the installation to complete and click 'Finish'.
 
-![ProSheets Installation Finish](../assets\images\PS-Complete.png)
+   ![ProSheets Installation Finish](../assets\images\PS-Complete.png)
 
 4. Restart your computer. Don't Skip this step.
 

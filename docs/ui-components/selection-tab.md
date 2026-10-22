@@ -33,22 +33,20 @@ The first step is to select the sheets and views to be exported.
 
 Steps:
 
-1. Click radio buttons to switch between sheets and views. fsdfsdfs
+1. Click the radio buttons to switch between sheets and views.
 
-```yaml
-The 'Sheets' radio button will show the existing sheets in the project.  
-The 'Views' radio button will show the existing views in the project.  
-```
+   - The 'Sheets' radio button shows the existing sheets in the project.
+   - The 'Views' radio button shows the existing views in the project.
 
 2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
 
-![ProSheets Selecting Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-RadioButton.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Selecting Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-RadioButton.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 3. Select the "Opened Sheets/Views Only" option to filter only the list of open sheets and views.
 
-![ProSheets Opened Sheets/Views only](../../assets\images\GIFs\Selection\PS-OpenedSheets.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Opened Sheets/Views only](../../assets\images\GIFs\Selection\PS-OpenedSheets.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
 
@@ -66,13 +64,13 @@ Filtering options available:
 
 1. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.).
 
-![ProSheets Filter by View Type](../../assets\images\GIFs\Selection\PS-FilterViewTypes.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Filter by View Type](../../assets\images\GIFs\Selection\PS-FilterViewTypes.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 2.  Select several sheets/views and save new sets for filtering.
 
-![ProSheets Save Sets](../../assets\images\GIFs\Selection\PS-Sets.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Save Sets](../../assets\images\GIFs\Selection\PS-Sets.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Search
 
@@ -130,26 +128,26 @@ Set some advanced settings as defaults for your prints, using the radio button t
 
 1. Temporary Hide/Isolate
 
-- Turn off the temporary Hide/Isolate mode before printing
-- Leave the temporary Hide/Isolate mode and print
+   - Turn off the temporary Hide/Isolate mode before printing
+   - Leave the temporary Hide/Isolate mode and print
 
 2. Worksharing Display
 
-- Turn off the Worksharing Display mode before printing
-- Leave the Worksharing Display mode on and print
+   - Turn off the Worksharing Display mode before printing
+   - Leave the Worksharing Display mode on and print
 
 3. Reveal Hidden elements
 
-- Turn off the Reveal Hidden Elements mode before printing
-- Leave the Reveal Hidden Elements mode on and print
+   - Turn off the Reveal Hidden Elements mode before printing
+   - Leave the Reveal Hidden Elements mode on and print
 
 4. Reveal Constraints
 
-- Turn off the Reveal Constraints mode before printing
-- Leave the Reveal Constrains mode on and print
+   - Turn off the Reveal Constraints mode before printing
+   - Leave the Reveal Constrains mode on and print
 
-![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
 

@@ -109,11 +109,11 @@ If your internet is working but the error still appears, it's usually caused by 
 3. **Verify your connection**: Confirm you can access other online resources while using Revit.  
 4. **Check ProSheets logs** (if the issue persists):  
 
-```
-%localappdata%\DiRoots\ProSheets\Log
-```
+   ```
+   %localappdata%\DiRoots\ProSheets\Log
+   ```
 
-Share the log files with our support team for further analysis.  
+   Share the log files with our support team for further analysis.
 
 ### Special case: Offline environments
 ProSheets does **not** work fully offline by default.  
