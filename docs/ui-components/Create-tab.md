@@ -64,10 +64,8 @@ Steps for Hub Administrators:
 
 Install the connector separately for each Hub where ProSheets will be used. ProSheets users can then follow the steps below to log in to Forma.
 
-```yaml
-#Note:
-Autodesk previously used the terms "account" and "Account Admin" for "Hub" and "Hub Admin"
-```
+Autodesk previously used the terms “account” and “Account Admin” for “Hub” and “Hub Admin”.
+{: .note }
 
 #### Login to Forma
 
@@ -181,7 +179,8 @@ Use the format filter to display rows for one file format. The dropdown includes
 
 You can combine the search, Views/Sheets, and format filters.
 
-> **Important:** Filters only change which rows are displayed. Hidden items remain in the export queue and will still be exported. To stop an item from being exported, remove it from the queue.
+Filters only change which rows are displayed. Hidden items remain in the export queue and will still be exported. Remove an item from the queue to stop it from being exported.
+{: .important }
 
 ![ProSheets filter views, sheets, and file formats](../../assets/images/GIFs/Export/PS-Create-Tab-Filters.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -213,10 +212,8 @@ Steps:
 ![ProSheets Revit Paper Size and Orientation Manually Set](../../assets\images\GIFs\Export\PS-SetPaperSizeOrientation.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-```yaml
-#Note:
-Right-click a row and select "Open Sheet" or "Open View" to open it in Revit.
-```
+Right-click a row and select **Open Sheet** or **Open View** to open it in Revit.
+{: .note }
 
 ![ProSheets Open View](../../assets\images\GIFs\Export\PS-OpenViewSheet.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -227,10 +224,8 @@ Right-click a row and select "Open Sheet" or "Open View" to open it in Revit.
 
 The Scheduling Assistant tool allows you to define the views/sheets and their settings to be printed and schedule automatic printing at an exact date and time, or repeat.
 
-```yaml
-#Note:
-Note that for automatic printing to take occur with this tool active, the project must be open in Revit at the appointed time. 
-```
+For automatic printing, keep the Revit project open at the scheduled time.
+{: .note }
 
 ### Schedule Publish
 

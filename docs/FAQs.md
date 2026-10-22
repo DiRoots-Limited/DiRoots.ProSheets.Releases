@@ -3,8 +3,8 @@ layout: default
 title: FAQs
 nav_order: 98
 nav_sections:
-  - title: "Does ProSheets requires PDF24?"
-    anchor: does-prosheets-requires-pdf24
+  - title: "Does ProSheets require PDF24?"
+    anchor: does-prosheets-require-pdf24
   - title: "Can I select another PDF printer?"
     anchor: can-i-select-another-pdf-printer
   - title: "What is the printer called diroots.prosheets that I got after installing ProSheets?"
@@ -21,19 +21,16 @@ nav_sections:
 
 # Frequently Asked Questions about ProSheets
 
-This section aims to answer the our users' frequently asked questions.
+This section answers common questions about ProSheets.
 
-## Does ProSheets requires PDF24?
+## Does ProSheets require PDF24?
 
-Yes. The correct version of PDF24 will be automatically installed alongside ProSheets.
-
-```
-Uninstalling PDF24 will lead ProSheets to stop working.
-```
+PDF24 is installed with ProSheets for the standard PDF export workflow. It is optional if you use the native Revit PDF exporter, which requires Revit 2022 or newer and a ProSheets Premium license.
+{: .note }
 
 ## Can I select another PDF printer?
 
-No. ProSheets works only with PDF24.
+ProSheets supports its PDF24 printer and, with a Premium license in Revit 2022 or newer, the native Revit PDF exporter.
 
 ## What is the printer called diroots.prosheets that I got after installing ProSheets?
 
@@ -109,11 +106,11 @@ If your internet is working but the error still appears, it's usually caused by 
 3. **Verify your connection**: Confirm you can access other online resources while using Revit.  
 4. **Check ProSheets logs** (if the issue persists):  
 
-```
-%localappdata%\DiRoots\ProSheets\Log
-```
+   ```
+   %localappdata%\DiRoots\ProSheets\Log
+   ```
 
-Share the log files with our support team for further analysis.  
+   Share the log files with our support team for further analysis.
 
 ### Special case: Offline environments
 ProSheets does **not** work fully offline by default.  

@@ -66,19 +66,15 @@ Steps:
 
 2. Use the dropdown to switch between the existing DWG setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.
 
-```yaml
-# Note:
-To Create an "Export Group" go to "DWG Export" and select "Modify Export Setup" on the "Select Export Setup" group box.
-```
+   To create an export group, open **DWG Export** and select **Modify Export Setup** in the **Select Export Setup** group.
+   {: .note }
 
 3. Select the checkbox to "Export views on sheets and links as external references".
 
 4. Use the checkbox to "Bind Images as OLE in DWG File" (premium feature).
 
-```yaml
-# Note:
-This feature requires AutoCAD 2019 or higher, to work.
-```
+This feature requires AutoCAD 2019 or later.
+{: .note }
 
 ![ProSheets Revit DWG Export Settings](../../assets\images\GIFs\FileFormats\PS-DWG-GeneralSettings.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
@@ -91,8 +87,8 @@ Steps:
 1. In Revit UI go to File -> Export -> DGN and create a new DGN export setup as per your requirements (if you don't know how to create/modify a DGN setup, read this [article](https://knowledge.autodesk.com/support/revit/learn-explore/caas/CloudHelp/cloudhelp/2021/ENU/Revit-DocumentPresent/files/GUID-253B99CA-09C0-456E-B260-E69F5C14F793-htm.html))
 2. Use the dropdown to switch between the existing DGN setups. If you created the setup with ProSheets opened, you may need to close and reopen it to see the new setup in the list.  
 
-![ProSheets Revit DGN Export Settings](../../assets/images/GIFs/FileFormats/DWG-export-settings.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+   ![ProSheets Revit DGN Export Settings](../../assets/images/GIFs/FileFormats/DWG-export-settings.gif)<br />
+   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## DWF Settings
 
