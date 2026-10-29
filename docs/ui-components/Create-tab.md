@@ -245,7 +245,7 @@ To activate this function, click on the “Schedule Assistant” button to activ
 
 This option asks Windows to wake the computer from Sleep or Hibernate for a scheduled export. Windows settings and your computer's configuration may prevent it from waking or running the task.
 
-- **Wake timers:** In Control Panel, go to **Hardware and Sound > Power Options > Change plan settings > Change advanced power settings > Sleep > Allow wake timers**. Set the applicable **On battery** and **Plugged in** values to **Enable**. If you cannot change them, contact your IT administrator.
+- **Wake timers:** In Control Panel, go to **Hardware and Sound > Power Options > Change plan settings > Change advanced power settings > Sleep > Allow wake timers**. Set the applicable **On battery** and **Plugged in** values to **Enable**. **Important Wake Timers Only** allows Windows system timers to wake the computer, but does not allow a ProSheets scheduled export to wake it. If you cannot change them, contact your IT administrator.
 - **Modern Standby:** Scheduled exports may not run while the computer is asleep. Use **Hibernate**, keep the computer plugged in, and set the plugged-in sleep timeout to **Never**. If Hibernate is unavailable, contact your IT administrator.
 - **Computer or account unavailable:** The task cannot run if the computer is shut down or the scheduling account is signed out.
 
