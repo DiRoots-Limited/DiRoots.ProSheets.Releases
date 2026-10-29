@@ -139,4 +139,3 @@ By default, update checks cannot be disabled in the updater settings. To check l
 We recommend keeping ProSheets up to date. Support is not provided for outdated versions.
 {: .important }
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
