@@ -131,7 +131,7 @@ The custom file name builder allows you to quickly set how you want your files t
 
 Main features:
 - Parametric filenaming (using Sheet/View and Project Information parameters)
-- Set custom fields Separators (e.g., SheetName-SheetNumber_Rev1)
+- Set custom field separators (e.g., SheetName-SheetNumber_Rev1)
 - Custom Prefix and Suffix
 - Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
 - Custom Name Preview
