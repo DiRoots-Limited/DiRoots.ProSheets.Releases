@@ -60,7 +60,7 @@ Once you have saved your profiles with the necessary practice settings, you can 
 
 The profile will now be immediately visible to users.
 
-![ProSheets default profile](../../assets\images\GIFs\Profiles\thumbnail_image014.png)  
+![ProSheets default profile](../../assets/images/GIFs/Profiles/thumbnail_image014.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ## Importing Profiles
@@ -69,10 +69,17 @@ ProSheets profiles make it easy to import existing profiles to stay compliant wi
 
 Steps:
 1. In the window header, click on the plus (+) button next to the profiles list.
-2. Name the profile (give it a meaningful name because this is the name that will show up in the profiles list)
-3. Choose 'Import from file' to import settings from an existing profile
-4. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
-5. Click on the "Create" button to create the profile.
+2. Choose "Import from file(s)" to import settings from one or more existing profiles.
+3. Click the "..." button and use the Windows File Explorer to find the profile files (e.g., in a shared folder, a network location, or your local computer). You can select several files; ProSheets creates one profile for each file.
+4. Check the profile name. ProSheets fills it in with the file name, or with `<File Name>` when you select several files. Change it if needed; this is the name that will show up in the profiles list.
+5. Click on the "Create" button to create the profiles.
+
+When you import several files, keep `<File Name>` in the profile name to name each profile after its file (for example, `Office - <File Name>`). Without it, the profiles are numbered.
+{: .tip }
+
+ProSheets asks before overwriting an existing profile with the same name. Files that cannot be read are skipped, and the reasons are displayed.
+
+When ProSheets loads a profile, it checks that the profile's settings can be applied, for example a setting that your Revit version or this version of ProSheets does not support. Any settings that could not be applied are listed in "Profile settings that could not be applied", together with what was used instead. Scheduled exports run the same check.
 
 ![ProSheets Importing profiles](../../assets/images/GIFs/Profiles/PS-Import-Profiles.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>

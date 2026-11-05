@@ -31,14 +31,14 @@ Download the [latest version of ProSheets](https://diroots.com/revit-plugins/rev
 ## Install
 
 ### Compatibility
-- Revit 2018–2027.
+- Revit 2018 to 2027.
 - Use a Windows version supported by your Revit release. See [Autodesk's system requirements](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/System-requirements-for-Autodesk-Revit-products.html).
 
 ### Prerequisites
 - Admin permissions.
 - PDF24 (the compatible version will be installed automatically. Don’t install it manually).
 
-ProSheets is installed for all users on the machine. Its add-in files are stored in `%ProgramData%\Autodesk\Revit\Addins\`.
+ProSheets is installed for all users on the machine. Its add-in files are stored in `%ProgramData%\Autodesk\Revit\Addins\<Revit version>\`, and for Revit 2027 and newer in `%ProgramFiles%\Autodesk\Revit\Addins\<Revit version>\`.
 {: .note }
 
 ### Standard Installation
@@ -73,10 +73,10 @@ This method is intended for IT administrators who want to deploy ProSheets to mu
   <installer-name>.exe /i // /qn accept_eula=1 UPDATER="FALSE"
   ```
 
-- Exclude specific Revit versions.
+- Exclude specific Revit versions. All available Revit versions are selected by default; set the property of each version to skip to an empty value.
 
   ```cmd
-  <installer-name>.exe /i // /qn accept_eula=1 revit2018="" revit2019=""
+  <installer-name>.exe /i // /qn accept_eula=1 checkbox2018="" checkbox2019=""
   ```
 
 - Skip PDF24 installation. You can export PDFs without PDF24 by using the native Revit PDF exporter in Revit 2022 or newer with a [ProSheets Premium license](https://diroots.com/revit-plugins/quote-request/).

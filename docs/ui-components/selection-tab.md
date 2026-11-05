@@ -6,6 +6,8 @@ nav_order: 1
 nav_sections:
   - title: "Select Sheets and Views or View/Sheet Sets"
     anchor: select-sheets-and-views-or-viewsheet-sets
+  - title: "Export from linked models"
+    anchor: export-from-linked-models
   - title: "Custom File Name"
     anchor: custom-file-name
   - title: "Clear selection"
@@ -38,14 +40,14 @@ Steps:
    - The 'Sheets' radio button shows the existing sheets in the project.
    - The 'Views' radio button shows the existing views in the project.
 
-2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all sheets/views.
+2. Use the checkboxes to select specific sheets/views or use the checkbox in the table header to select all the sheets/views that match the current filters and search, including rows in collapsed model groups.
 
-   ![ProSheets Selecting Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-RadioButton.gif)<br />
+   ![ProSheets Selecting Revit Sheets and Views](../../assets/images/GIFs/Selection/PS-RadioButton.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-3. Select the "Opened Sheets/Views Only" option to filter only the list of open sheets and views.
+3. Select the "Show only open sheets/views" option (premium feature) to show only the sheets and views that are open in Revit.
 
-   ![ProSheets Opened Sheets/Views only](../../assets\images\GIFs\Selection\PS-OpenedSheets.gif)<br />
+   ![ProSheets Opened Sheets/Views only](../../assets/images/GIFs/Selection/PS-OpenedSheets.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
@@ -54,7 +56,7 @@ Steps:
 
 Right-click on the table header to select any other instance parameter available on your sheets. Examples - Current Review Date, Approved By, Appears on Sheet List, etc. 
 
-![ProSheets Sorting Revit Sheets and Views and right-click](../../assets\images\GIFs\Selection\PS-RightClick.gif)  
+![ProSheets Sorting Revit Sheets and Views and right-click](../../assets/images/GIFs/Selection/PS-RightClick.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 
@@ -64,17 +66,17 @@ Filtering options available:
 
 1. Dropdown to filter by view type (e.g., 3D, Floor Plan, Section, Detail, etc.).
 
-   ![ProSheets Filter by View Type](../../assets\images\GIFs\Selection\PS-FilterViewTypes.gif)<br />
+   ![ProSheets Filter by View Type](../../assets/images/GIFs/Selection/PS-FilterViewTypes.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
-2.  Select several sheets/views and save new sets for filtering.
+2.  Select several sheets/views and use "Save V/S Set" to save them as a new set. Use "Filter by V/S Sets" to show only the sheets/views of the sets you choose. Choosing a set filters the list; it does not select the sheets/views.
 
-   ![ProSheets Save Sets](../../assets\images\GIFs\Selection\PS-Sets.gif)<br />
+   ![ProSheets Save Sets](../../assets/images/GIFs/Selection/PS-Sets.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ### Search
 
-The search box will search for text contained in any of the existing columns (including the customizable column).  
+The search box will search for text contained in any of the existing columns (including the customizable column). Click the clear (X) button in the search box to clear the search.  
   
 ---
 
@@ -95,8 +97,31 @@ For example, you can find Views by:
 - Discipline
 - Custom filename
 
-![ProSheets Searching for Revit Sheets and Views](../../assets\images\GIFs\Selection\PS-Search.gif)  
+![ProSheets Searching for Revit Sheets and Views](../../assets/images/GIFs/Selection/PS-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+---
+
+## Export from linked models
+
+ProSheets can export sheets and views from the Revit models linked into the main model (premium feature), together with the main model's own sheets and views, without manually opening each model.
+
+Steps:
+
+1. Open the "Linked Files" dropdown and choose the models to list: "All Files", or select the main model and the linked models you need.
+2. Click the arrow on a model's header to collapse or expand its sheets/views. When more than one model is selected in "Linked Files", the list is grouped by model, and the main model is marked "(Main)".
+3. Use the checkboxes to select the sheets/views to export from any of the models.
+
+![ProSheets export sheets and views from linked Revit models](../../assets/images/GIFs/Selection/PS-Linked-Models.gif)  
+<sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
+
+- When you combine sheets/views into one file, ProSheets creates a combined file for each linked model.
+- Sheets and views from linked models cannot be saved in a View/Sheet Set.
+- The linked models must be loaded and available. A linked cloud model needs you to be signed in to your Autodesk account.
+- Scheduled exports can include linked models (see [Linked models in scheduled exports](Create-tab.html#linked-models-in-scheduled-exports)).
+
+For some exports ProSheets has to close the main model to export from its linked models: NWC, IFC, and image exports, linked models with nested links or a link back to the main model, and all exports in Revit 2020 and older. Before a manual export, ProSheets asks first. Nothing is saved, so any unsaved changes are lost. Keep "Reopen the file after exporting" selected to open the main model again when the export is done. When an export requires closing the main model, that model must have a saved location so ProSheets can reopen it.
+{: .important }
 
 ---
 
@@ -106,12 +131,12 @@ The custom file name builder allows you to quickly set how you want your files t
 
 Main features:
 - Parametric filenaming (using Sheet/View and Project Information parameters)
-- Set custom fields Separators (e.g., SheetName-ShetNumber_Rev1)
-- Custom Prefix and SUffix
+- Set custom field separators (e.g., SheetName-SheetNumber_Rev1)
+- Custom Prefix and Suffix
 - Other non-Revit parameters (e.g., Current Month, Day, Hour, etc.)
 - Custom Name Preview
 
-![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets\images\PS-CustomFileNameSelection.gif)  
+![ProSheets building a custom filename with Revit parameters and custom parameters](../../assets/images/PS-CustomFileNameSelection.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
@@ -128,27 +153,34 @@ Set some advanced settings as defaults for your prints, using the radio button t
 
 1. Temporary Hide/Isolate
 
-   - Turn off the temporary Hide/Isolate mode before printing
-   - Leave the temporary Hide/Isolate mode and print
+   - Turn off the Temporary Hide/Isolate mode before printing
+   - Keep the Temporary Hide/Isolate mode on and print
 
 2. Worksharing Display
 
    - Turn off the Worksharing Display mode before printing
-   - Leave the Worksharing Display mode on and print
+   - Keep the Worksharing Display mode on and print
 
-3. Reveal Hidden elements
+3. Reveal Hidden Elements
 
    - Turn off the Reveal Hidden Elements mode before printing
-   - Leave the Reveal Hidden Elements mode on and print
+   - Keep the Reveal Hidden Elements mode on and print
 
 4. Reveal Constraints
 
    - Turn off the Reveal Constraints mode before printing
-   - Leave the Reveal Constraints mode on and print
+   - Keep the Reveal Constraints mode on and print
 
-   ![ProSheets Advanced Settings](../../assets\images\GIFs\Selection\PS-AdvancedSettings.gif)<br />
+5. Ribbon Tab Placement
+
+   - "ProSheets": place ProSheets in its own tab
+   - "DiRootsOne": place ProSheets inside the DiRootsOne tab
+
+   Changes apply after restarting Revit.
+
+   ![ProSheets Advanced Settings](../../assets/images/GIFs/Selection/PS-AdvancedSettings.gif)<br />
    <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
 ---
 
-Let's move on to the next step. After selecting the sheets/views you want, click on "Next" to go to the print format settings.
+Let's move on to the next step. After selecting the sheets/views you want, click on "Next" to go to the format settings.

@@ -9,9 +9,9 @@ nav_sections:
     anchor: can-i-select-another-pdf-printer
   - title: "What is the printer called diroots.prosheets that I got after installing ProSheets?"
     anchor: what-is-the-printer-called-dirootsprosheets-that-i-got-after-installing-prosheets
-  - title: "Why I can’t see the PDFs being created in the output location?"
+  - title: "Why can't I see the PDFs being created in the output location?"
     anchor: why-i-cant-see-the-pdfs-being-created-in-the-output-location
-  - title: "Why I ProSheets tells me that my printer is in an error state?"
+  - title: "Why does ProSheets tell me that my printer is in an error state?"
     anchor: why-i-prosheets-tells-me-that-my-printer-is-in-an-error-state
   - title: "Printer Permission Issue in ProSheets (Failed to access print parameters)"
     anchor: printer-permission-issue-in-prosheets-failed-to-access-print-parameters
@@ -36,7 +36,8 @@ ProSheets supports its PDF24 printer and, with a Premium license in Revit 2022 o
 
 diroots.prosheets printer is a custom instance of PDF24 that ProSheets uses to set up its custom settings without affecting the main instance of PDF24.
 
-## Why I can't see the PDFs being created in the output location?
+## Why can't I see the PDFs being created in the output location?
+{: #why-i-cant-see-the-pdfs-being-created-in-the-output-location }
 
 If you don't see the PDF files appearing in the export path, it means that there are some issues with your settings. You can fix it, using one of the methods below.
 
@@ -44,18 +45,19 @@ If you don't see the PDF files appearing in the export path, it means that there
 
 Open PDF24 -> Settings -> Printer Driver and confirm that your settings are as per the image below.
 
-![ProSheets Selecting Revit Sheets and Views](../assets\images\PS-Print-Settings.png)  
+![PDF24 printer driver settings](../assets/images/PS-Print-Settings.png)  
 
 **Method B**  
 
-1. uninstall ProSheets and PDF24
-2. download and install the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/) from our website.
-3. restart your computer and try again 
+1. Uninstall ProSheets and PDF24.
+2. Download and install the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/) from our website.
+3. Restart your computer and try again.
 
-## Why I ProSheets tells me that my printer is in an error state?
+## Why does ProSheets tell me that my printer is in an error state?
+{: #why-i-prosheets-tells-me-that-my-printer-is-in-an-error-state }
 
-If ProSheets is telling you that your printer is in error state, it means that the Windows printer services stopped working.  
-Often, restart your computer is enough to fix the problem.
+If ProSheets is telling you that your printer is in error state, it usually means that the Windows print services stopped working.  
+Often, restarting your computer is enough to fix the problem.
 
 ## Printer Permission Issue in ProSheets (Failed to access print parameters)
 
@@ -118,4 +120,4 @@ If your organization requires an **offline license** (e.g., for secure IT enviro
 
 ---
 
-✅ After restoring internet access or adjusting your firewall rules, ProSheets should work as expected.
+After restoring internet access or adjusting your firewall rules, ProSheets should work as expected.
