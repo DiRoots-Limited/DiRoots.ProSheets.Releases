@@ -17,7 +17,7 @@ nav_sections:
 # [Beta] Connect AI apps - MCP
 {: .no_toc }
 
-Through MCP (Model Context Protocol), you can connect an AI app such as Claude or ChatGPT to ProSheets. In your own words, ask it to find, export, or schedule exports of sheets and views in the open Revit model. For example: "Export sheets A101 and A102 to PDF". The AI app shows you a plan first. ProSheets exports or schedules only after you approve it.
+Through MCP (Model Context Protocol), you can connect an AI app such as Claude or ChatGPT to ProSheets. In your own words, ask it to find, export, or schedule exports of sheets and views in the open Revit model. For example: "Export sheets A101 and A102 to PDF". Before running a plan, review the selected sheets and views, the destination, and any warnings about overwrites, uploads, or schedules. Keep approval prompts enabled in your AI app where available.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -35,6 +35,8 @@ Through MCP (Model Context Protocol), you can connect an AI app such as Claude o
 
 ## Connect an AI app
 
+Before connecting, check [what project information your AI app can read](#your-data).
+
 1. In Revit, go to File > Options and open the DiRoots tab. If the "Connect to AI apps" message appears the first time you open ProSheets, its Open Revit Options button takes you there.
 2. Under Connect AI apps - MCP, turn on Claude or ChatGPT/Codex.
 3. Click OK to keep the change. Cancel, or closing Options with the X, undoes it.
@@ -47,7 +49,7 @@ An app that ProSheets cannot find on your PC shows "Not installed". If the toggl
 
 ## Your data
 
-The connection between ProSheets and the AI app runs only on your PC. Your AI provider handles the data the AI app reads from Revit, under its own data policies.
+The connection between ProSheets and the AI app runs on your PC. Your connected AI app can read project information such as model names, sheet numbers, sheet names, and revisions before you approve an export. The app may send that information to its AI provider. Check your provider’s data policy and account settings, and follow your organization’s rules for sharing project information.
 
 ## For IT administrators
 
