@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Connect AI apps - MCP
+title: "[Beta] Connect AI apps - MCP"
 parent: ProSheets
 nav_order: 5
 nav_sections:
@@ -14,10 +14,10 @@ nav_sections:
     anchor: for-it-administrators
 ---
 
-# Connect AI apps - MCP
+# [Beta] Connect AI apps - MCP
 {: .no_toc }
 
-Through MCP (Model Context Protocol), you can connect an AI app such as Claude or ChatGPT to ProSheets and ask it, in your own words, to find, export or schedule exports of the sheets and views in the open Revit model. For example: "Export sheets A101 and A102 to PDF". The AI app shows you a plan first, and ProSheets exports or schedules only after you approve it.
+Through MCP (Model Context Protocol), you can connect an AI app such as Claude or ChatGPT to ProSheets. In your own words, ask it to find, export, or schedule exports of sheets and views in the open Revit model. For example: "Export sheets A101 and A102 to PDF". The AI app shows you a plan first. ProSheets exports or schedules only after you approve it.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -38,7 +38,7 @@ Through MCP (Model Context Protocol), you can connect an AI app such as Claude o
 1. In Revit, go to File > Options and open the DiRoots tab. If the "Connect to AI apps" message appears the first time you open ProSheets, its Open Revit Options button takes you there.
 2. Under Connect AI apps - MCP, turn on Claude or ChatGPT/Codex.
 3. Click OK to keep the change. Cancel, or closing Options with the X, undoes it.
-4. Start a new session in Claude Code or Codex CLI. If Claude Desktop is running, quit it fully, including from the notification area, and reopen it. A note under Claude reminds you, and ProSheets makes the change once Claude Desktop is closed. If ProSheets is missing in the ChatGPT desktop app, reopen the app.
+4. Start a new session in Claude Code or Codex CLI. If Claude Desktop is running, quit it fully, including from the notification area, and reopen it. A note under Claude reminds you. ProSheets makes the change once Claude Desktop is closed. If ProSheets is missing in the ChatGPT desktop app, reopen the app.
 5. Open your model in Revit and ask the AI app what to export.
 
 To disconnect an app, turn it off in the same place.
