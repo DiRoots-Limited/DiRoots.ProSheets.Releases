@@ -32,6 +32,8 @@ nav_sections:
 ![ProSheets Revit Export Tab](../../assets/images/GIFs/Export/PS-Overview-240.png)  
 <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
 
+Click the gear icon at the bottom right, next to **Back**, to open [Settings](settings.html).
+
 ## Export Location
 
 ProSheets allows you to export files locally, to Autodesk Forma, or to both destinations in the same export job.

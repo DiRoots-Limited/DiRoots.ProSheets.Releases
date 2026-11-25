@@ -12,8 +12,6 @@ nav_sections:
     anchor: custom-file-name
   - title: "Clear selection"
     anchor: clear-selection
-  - title: "Advanced Settings"
-    anchor: advanced-settings
 ---
 
 <span id="prosheets"></span>
@@ -147,40 +145,6 @@ Quickly clear the current selection.
 
 ---
 
-## Advanced Settings
-
-Set some advanced settings as defaults for your prints, using the radio button to set the desired setting.
-
-1. Temporary Hide/Isolate
-
-   - Turn off the Temporary Hide/Isolate mode before printing
-   - Keep the Temporary Hide/Isolate mode on and print
-
-2. Worksharing Display
-
-   - Turn off the Worksharing Display mode before printing
-   - Keep the Worksharing Display mode on and print
-
-3. Reveal Hidden Elements
-
-   - Turn off the Reveal Hidden Elements mode before printing
-   - Keep the Reveal Hidden Elements mode on and print
-
-4. Reveal Constraints
-
-   - Turn off the Reveal Constraints mode before printing
-   - Keep the Reveal Constraints mode on and print
-
-5. Ribbon Tab Placement
-
-   - "ProSheets": place ProSheets in its own tab
-   - "DiRootsOne": place ProSheets inside the DiRootsOne tab
-
-   Changes apply after restarting Revit.
-
-   ![ProSheets Advanced Settings](../../assets/images/GIFs/Selection/PS-AdvancedSettings.gif)<br />
-   <sub>Note: the version on the image may not reflect the [latest version of ProSheets](https://diroots.com/revit-plugins/revit-to-pdf-dwg-dgn-dwf-nwc-ifc-and-images-with-prosheets/).</sub>
-
----
+<p id="advanced-settings">See <a href="settings.html">Settings</a> for print options and Revit ribbon placement.</p>
 
 Let's move on to the next step. After selecting the sheets/views you want, click on "Next" to go to the format settings.

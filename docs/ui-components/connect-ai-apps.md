@@ -2,7 +2,7 @@
 layout: default
 title: "[Beta] Connect AI apps - MCP"
 parent: ProSheets
-nav_order: 5
+nav_order: 6
 nav_sections:
   - title: "Requirements"
     anchor: requirements
